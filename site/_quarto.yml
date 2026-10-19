@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Career Knowledge Engineering"
+  description: "Evidence-first career research tooling — architecture, evaluation, and lessons learned."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: architecture.qmd
+        text: Architecture
+      - href: evaluation.qmd
+        text: Evaluation
+      - href: roadmap.qmd
+        text: Roadmap
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
