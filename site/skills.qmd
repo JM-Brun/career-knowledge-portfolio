@@ -4,30 +4,34 @@ title: "Skills"
 
 # Skills
 
-This page groups methods and technologies by domain. The emphasis is on practical evidence rather than an unqualified list of keywords.
+This page groups technical methods by domain. The focus is on skills connected to documented work or identifiable implementation evidence; it does not imply the same proficiency level across all topics.
 
 ## Software engineering
 
-- **Python** — advanced practical experience reported; relevant evidence includes module design, typing, automated tests, and maintainability.
-- **Software quality** — separation of concerns, data validation, testing, and reproducibility.
-- **Backend development** — Java, APIs, and software architecture, to be detailed against confirmed professional experience.
+- **Python** — advanced practical experience reported; examples include modular application code, typing, automated tests, and maintainability.
+- **Software design and quality** — separation of concerns, data validation, testability, and reproducible workflows.
+- **Backend and tooling** — command-line interfaces, configuration, and modular Python packages, including the public Wiki Knowledge project.
 
 ## Data science and machine learning
 
 - Data analysis and model development
 - Classification metrics, model comparison, threshold analysis, and error analysis
 - Validation methodology, data leakage, calibration, and generalisation
-- Mathematical and statistical foundations, with theory distinguished from implementation experience
+- Experimental design and the distinction between predictive discrimination and probability calibration
+
+These areas are being consolidated through diagnostics and implementation work; they should not be interpreted as independently validated mastery of every method.
 
 ## LLMs and knowledge engineering
 
-- Evaluation of hallucination-detection systems and fact-checking approaches
-- Benchmark design, metric aggregation, and threshold studies
-- Source ingestion, structured knowledge generation, validation, and search
+- Evaluation of hallucination-detection and fact-checking approaches
+- Benchmark metrics, aggregation, and threshold studies
+- LLM-assisted source ingestion and structured knowledge generation
+- Markdown/YAML-based knowledge organisation, validation, and lexical search
 
 ## Scientific computing and environmental modelling
 
-- Applied mathematics, numerical simulation, and algorithmic methods
-- Fluid mechanics and atmospheric/environmental dispersion topics, subject to confirmation of the specific work and terminology
+- Reduced-order modelling of passive-scalar transport and environmental dispersion
+- Applied mathematics and scientific modelling
+- Research-based work documented in the linked 2006 journal article and 2008 book chapter
 
-Tools and frameworks will be linked to the projects or roles in which they were actually used. Brief experimentation alone is not presented as mastery.
+Tools and frameworks are linked to the projects in which they are used. A dependency listed in a project is not, by itself, evidence of a fully implemented feature.
