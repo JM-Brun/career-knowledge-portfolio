@@ -1,0 +1,24 @@
+{
+  "opportunity_id": "synthetic-ml-001",
+  "company": "Northstar Analytics (fictional)",
+  "role_title": "Machine Learning Engineer",
+  "source_url": "https://example.com/jobs/synthetic-ml-001",
+  "created_at": "2026-01-15",
+  "status": "reviewed",
+  "location": "Nantes or remote (fictional example)",
+  "work_mode": "hybrid",
+  "evidence": [
+    {
+      "claim": "The role includes productionising ML models",
+      "source": "https://example.com/jobs/synthetic-ml-001",
+      "quote": "Build, evaluate, and maintain machine learning services.",
+      "captured_at": "2026-01-15"
+    }
+  ],
+  "requirements": [
+    {"requirement": "Python software engineering", "importance": "must_have", "evidence": "Synthetic job description, paragraph 2"},
+    {"requirement": "Model evaluation and monitoring", "importance": "important", "evidence": "Synthetic job description, paragraph 3"},
+    {"requirement": "Experience in a specific cloud provider", "importance": "unknown", "evidence": null}
+  ],
+  "notes": "Entire record is fictional and exists only to demonstrate the schema."
+}
