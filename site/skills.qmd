@@ -1,29 +1,33 @@
 ---
-title: "Compétences techniques"
+title: "Skills"
 ---
 
-# Compétences techniques
+# Skills
 
-L'objectif est de décrire ce que je sais réellement mettre en œuvre, et non d'accumuler des mots-clés. Le niveau affiché pour chaque technologie devra être étayé par des exemples concrets.
+This page groups methods and technologies by domain. The emphasis is on practical evidence rather than an unqualified list of keywords.
 
-## Développement logiciel
+## Software engineering
 
-- **Python** — pratique déclarée avancée ; les preuves à mettre en avant incluent la conception de modules, le typage, les tests et la maintenabilité.
-- **Qualité logicielle** — tests automatisés, séparation des responsabilités, validation des données et reproductibilité ; niveau à illustrer par des projets publiables.
+- **Python** — advanced practical experience reported; relevant evidence includes module design, typing, automated tests, and maintainability.
+- **Software quality** — separation of concerns, data validation, testing, and reproducibility.
+- **Backend development** — Java, APIs, and software architecture, to be detailed against confirmed professional experience.
 
-## Data Science et Machine Learning
+## Data science and machine learning
 
-- **Analyse de données et ML** — domaine de pratique à détailler à partir des réalisations, des modèles utilisés et des protocoles d'évaluation.
-- **Évaluation de modèles** — travaux autour des métriques, de la comparaison de systèmes et de l'analyse des erreurs.
-- **Mathématiques et statistiques** — connaissances à présenter par thème, en distinguant compréhension théorique et capacité de mise en œuvre.
+- Data analysis and model development
+- Classification metrics, model comparison, threshold analysis, and error analysis
+- Validation methodology, data leakage, calibration, and generalisation
+- Mathematical and statistical foundations, with theory distinguished from implementation experience
 
-## LLM et IA générative
+## LLMs and knowledge engineering
 
-- **Évaluation des hallucinations** — travaux sur des benchmarks, des fact-checkers, des métriques agrégées et l'étude de seuils.
-- **Systèmes de connaissances avec LLM** — travaux sur l'ingestion de sources, la génération d'une base de connaissances et la recherche.
+- Evaluation of hallucination-detection systems and fact-checking approaches
+- Benchmark design, metric aggregation, and threshold studies
+- Source ingestion, structured knowledge generation, validation, and search
 
-## Environnements et outils
+## Scientific computing and environmental modelling
 
-Les versions, frameworks et bibliothèques seront associés aux projets où ils ont réellement été utilisés. Une technologie testée ponctuellement ne sera pas présentée comme maîtrisée.
+- Applied mathematics, numerical simulation, and algorithmic methods
+- Fluid mechanics and atmospheric/environmental dispersion topics, subject to confirmation of the specific work and terminology
 
-> Cette page constitue une première taxonomie. Elle devra être révisée pour préciser le niveau, le contexte d'utilisation et les preuves de chaque compétence.
+Tools and frameworks will be linked to the projects or roles in which they were actually used. Brief experimentation alone is not presented as mastery.

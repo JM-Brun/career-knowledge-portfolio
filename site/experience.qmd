@@ -1,17 +1,17 @@
 ---
-title: "Parcours professionnel"
+title: "Experience"
 ---
 
-# Parcours professionnel
+# Experience
 
-Cette page présentera les entreprises, postes, périodes et principales contributions, dans l'ordre chronologique inverse.
+This page will describe professional roles in reverse chronological order, using confirmed dates and responsibilities.
 
-Pour chaque expérience, le contenu sera structuré autour de :
+Each entry will cover:
 
-- **Entreprise et contexte** : secteur, produit ou service, équipe, dans la mesure où ces informations sont publiables.
-- **Rôle et périmètre** : responsabilités réelles et niveau d'autonomie.
-- **Réalisations** : problèmes traités, solutions mises en œuvre et contribution personnelle.
-- **Environnement technique** : outils et technologies réellement utilisés dans ce poste.
-- **Résultats** : effets vérifiables, sans divulguer de données confidentielles.
+- **Organisation and context** — sector, product, service, and team where shareable.
+- **Role and scope** — actual responsibilities and level of ownership.
+- **Contributions** — problems addressed, solutions implemented, and my specific role.
+- **Technical environment** — tools and technologies used in that role.
+- **Outcomes** — verifiable effects, without disclosing confidential information.
 
-Les noms d'employeurs, intitulés, dates et réalisations seront ajoutés à partir du CV ou d'une chronologie confirmée. Ils ne doivent pas être déduits des dépôts GitHub ni inventés.
+Employer names, job titles, dates, and achievements will be added or refined against a confirmed career timeline. They will not be inferred from GitHub repositories or guessed.

@@ -1,31 +1,101 @@
 ---
-title: "Projets"
+title: "Projects and research"
 ---
 
-# Projets sélectionnés
+# Selected technical work
 
-Chaque projet conséquent aura son propre dépôt GitHub. Cette page en résumera l'objectif, ma contribution et les enseignements, puis renverra vers le dépôt dédié lorsque celui-ci sera prêt et publiable.
+This page brings together software projects and scientific publications. Each item is linked to a public source that can be inspected independently.
 
-## Benchmark d'évaluation des hallucinations des LLM
+## Scientific publications
 
-**Thèmes :** évaluation de modèles, Python, Streamlit, métriques, analyse d'erreurs.
+### Reduced-Order Modelling of Dispersion (2008)
 
-Travail sur une application de benchmark comparant plusieurs approches de détection des hallucinations. Les sujets techniques incluent l'agrégation correcte des métriques, la comparaison de fact-checkers, l'analyse de seuils et la présentation des résultats.
+**Jean-Marc Brun and Bijan Mohammadi**  
+Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
 
-La fiche détaillée devra préciser les jeux de données et méthodes réellement publiables, les choix d'évaluation, les limites des comparaisons et les contributions personnelles. Les résultats chiffrés ne seront affichés qu'après vérification du protocole et des calculs.
+The chapter presents low-complexity models for passive-scalar transport and dispersion in environmental applications. The approach combines reduced-dimensional solution spaces, similarity solutions, data assimilation, and sensitivity analysis. It is designed to estimate concentrations without solving a full PDE over the entire domain.
 
-**Dépôt dédié :** à relier lorsque le dépôt public du projet aura été sélectionné ou créé.
+- [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
+- [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
 
-## LLM Wiki — base de connaissances maintenue avec des LLM
+### Similitude généralisée et modélisation géométrique à complexité réduite (2006)
 
-**Thèmes :** ingestion de sources, génération de connaissances structurées, recherche, validation et automatisation.
+**Bijan Mohammadi and Jean-Marc Brun**  
+*Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
 
-Travail sur un système de construction et de maintenance d'une base de connaissances à partir de sources, avec une attention portée à la provenance, à la qualité des contenus générés et aux mécanismes de validation.
+This paper presents a reduced-complexity model for passive-scalar transport and dispersion in environmental applications. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification. The method is mesh-free and can estimate the solution at a point without computing the full spatial field.
 
-La présentation publique devra expliquer l'architecture, les risques identifiés et les améliorations effectivement apportées, sans exposer les contenus privés ni les informations non destinées à la publication.
+- [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
+- [Alternative bibliographic record — Semantic Scholar](https://www.semanticscholar.org/paper/Similitude-g%C3%A9n%C3%A9ralis%C3%A9e-et-mod%C3%A9lisation-g%C3%A9om%C3%A9trique-Mohammadi-Brun/16f7bdf72d12165abf39078f4078438162304fbe)
 
-**Dépôt dédié :** à relier après décision sur ce qui peut être rendu public.
+These two publications are related outputs on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
-## Ajouter un projet
+### Contribution to a public-health exposure study (2006)
 
-Chaque nouvelle fiche devrait préciser : le contexte, le problème, mon rôle, l'architecture, les technologies utilisées, les tests ou évaluations, les résultats, les limites et le lien vers le dépôt dédié.
+**Évaluation de l’exposition aérienne aux pesticides de la population générale — Étude en air extérieur dans quatre sites de l’Hérault en 2006**
+
+The report by the French public-health surveillance institute (Institut de veille sanitaire, now part of Santé publique France) examines pesticide concentrations in outdoor air at four sites in Hérault and discusses population exposure. Jean-Marc Brun is listed in the report among the people who also participated in the study; the report does not specify an individual role or contribution.
+
+- [Study report (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+
+## LLM hallucination evaluation benchmark
+
+**Goal**
+
+Compare approaches to detecting unsupported or hallucinated content in language-model outputs using an evaluation protocol that makes comparisons interpretable.
+
+**Technical work**
+
+- Integration of multiple fact-checking and evaluation systems
+- Metric calculation and aggregation from predictions
+- Threshold analysis and trade-offs between metrics
+- Streamlit visualisation of benchmark results and errors
+- Modular code and tests for calculation components
+
+**What it demonstrates**
+
+Evaluation engineering: defining labels and units of analysis, checking metric validity, and distinguishing supported conclusions from claims the data cannot justify.
+
+**Repository status**
+
+A public repository URL, shareable datasets, full protocol, and numerical results have not yet been verified. No repository link or benchmark result is claimed here.
+
+## LLM Wiki — building a source-grounded knowledge base
+
+**Goal**
+
+Turn documentary sources into a structured, searchable, maintainable knowledge base while preserving traceability to source material.
+
+**Technical work**
+
+- Source ingestion and organisation
+- Generation of knowledge pages from documents
+- Structural validation and consistency checks
+- Search across generated knowledge
+- Automation and integration of checks into the development workflow
+
+**What it demonstrates**
+
+Knowledge engineering for LLM-based systems: provenance, validation, maintainability, and treating generated content as an engineering artefact rather than trusting generation alone.
+
+**Repository**
+
+[Wiki Knowledge on GitHub](https://github.com/JM-Brun/wiki-knowledge)
+
+The repository contains the implementation and project documentation. Its current state and limitations should be reviewed alongside the code.
+
+## Broader technical themes
+
+- Atmospheric dispersion and environmental modelling
+- Reduced-order modelling, applied mathematics, and scientific computing
+- Software engineering and software quality
+- Data science, statistics, and machine learning
+- LLM evaluation and hallucination detection
+- Knowledge engineering and source traceability
+- Reproducible experiments and engineering workflows
+
+## Scope and attribution
+
+The scientific publications above are linked to publisher records that identify Jean-Marc Brun as an author. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications unless authorship or a specific contribution can be verified.
+
+For software projects, the portfolio will link to dedicated repositories, demos, and reports when those artefacts are publicly available and ready for independent review.

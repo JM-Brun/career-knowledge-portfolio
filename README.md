@@ -1,39 +1,27 @@
-# Portfolio professionnel — JM-Brun
+# Professional Portfolio
 
-Ce dépôt héberge mon **portfolio professionnel personnel** : parcours, expériences, compétences techniques, connaissances et projets sélectionnés.
+This repository contains my public professional portfolio: selected experience, technical work, areas of expertise, and projects.
 
-Il ne s'agit pas d'un produit logiciel autonome. Chaque projet technique conséquent doit disposer de son propre dépôt, avec son code, ses tests, sa documentation et ses décisions d'architecture. Ce portfolio en donne la synthèse et explique le rôle que j'y ai joué.
+The portfolio focuses on concrete work and demonstrable skills. Substantial technical projects live in dedicated repositories with their own code, tests, documentation, architecture decisions, and reproducibility instructions.
 
-## Contenu du site
+## Website sections
 
-- **Profil** — positionnement professionnel et domaines d'intérêt.
-- **Parcours** — expériences et contributions, avec dates et périmètres vérifiés.
-- **Compétences** — technologies et méthodes, avec un niveau de maîtrise étayé.
-- **Projets** — problèmes traités, rôle personnel, approche, résultats et liens vers les dépôts dédiés.
-- **Connaissances** — sujets techniques étudiés et approfondis.
+- **Profile** — professional background and technical focus.
+- **Experience** — career history and contributions.
+- **Skills** — technologies and methods supported by practical evidence.
+- **Projects** — technical problems, implementation, evaluation, and links to project repositories.
+- **Topics** — scientific and technical areas explored through research, engineering, and personal projects.
 
-## Principes éditoriaux
+## Website
 
-- Ne pas inventer de poste, d'employeur, de date, de résultat ou de niveau de maîtrise.
-- Distinguer expérience professionnelle, projet personnel, expérimentation et apprentissage.
-- Décrire précisément ma contribution personnelle à chaque réalisation.
-- Relier les affirmations importantes à des livrables, dépôts, démonstrations ou éléments vérifiables lorsque c'est possible.
-- Ne publier aucune information confidentielle provenant d'un employeur, d'un client ou d'un projet privé.
-
-## Site
-
-Le site est construit avec [Quarto](https://quarto.org/) et publié sur GitHub Pages via GitHub Actions. Les pages sont dans `site/`.
-
-Pour prévisualiser localement :
+The site is built with [Quarto](https://quarto.org/) and can be rendered locally with:
 
 ```bash
 quarto render site
 ```
 
-Pour activer la publication, ouvrir **Settings → Pages** dans ce dépôt et choisir **GitHub Actions** comme source de déploiement.
+Source pages are in `site/`.
 
-## Structure des dépôts
+## Contributing
 
-- Ce dépôt : portfolio, récit professionnel et liens vers les réalisations.
-- Dépôts de projets : code, données partageables, tests, documentation et démonstrations propres à chaque projet.
-- Dépôt privé `career-knowledge` : notes personnelles de carrière et de progression, jamais copiées automatiquement dans ce dépôt public.
+Changes are proposed through pull requests targeting `main`. Each pull request should explain its scope and the checks performed. See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow.
