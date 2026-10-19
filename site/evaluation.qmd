@@ -1,21 +1,14 @@
-# Evaluation plan
+---
+title: "Évaluer les compétences"
+---
 
-No performance claims are published until there is a reproducible, labelled benchmark. The first benchmark should use synthetic job descriptions and hand-reviewed expected outputs.
+# Des compétences étayées par des preuves
 
-## Extraction metrics
+Une liste de technologies ne suffit pas à démontrer une maîtrise. Lorsque c'est possible, chaque compétence sera reliée à un type de preuve :
 
-- Field-level precision and recall for role title, location, work mode, and requirements.
-- Requirement importance classification accuracy, reported per class.
-- Provenance coverage: proportion of consequential extracted claims linked to evidence.
-- Unknown handling: rate of unsupported guesses on deliberately underspecified examples.
+- **Utilisation professionnelle** : mise en œuvre dans un contexte de travail, dans le respect des obligations de confidentialité.
+- **Projet personnel abouti** : dépôt, tests, documentation et résultats consultables.
+- **Expérimentation** : essai ciblé ou prototype, avec limites clairement indiquées.
+- **Connaissance théorique** : notions étudiées, expliquées et vérifiées par des exercices ou une évaluation.
 
-## Scoring metrics
-
-- Agreement with human prioritisation, with disagreement review rather than treating one annotator as objective truth.
-- Score stability when non-consequential text changes.
-- Sensitivity to missing dimensions and changes in stated constraints.
-- Coverage reported alongside score to expose incomplete evidence.
-
-## Evaluation hygiene
-
-Separate development and held-out examples. Freeze the evaluation set before tuning prompts or rules. Document annotation instructions and adjudicate ambiguous cases. Report sample sizes and uncertainty; do not claim generalisation from a tiny synthetic set.
+Les résultats quantitatifs ne seront publiés que s'ils sont reproductibles et correctement contextualisés. Les comparaisons indiqueront les données, le protocole, les métriques et les limites pertinentes. Aucune performance ne sera revendiquée sans preuve.
