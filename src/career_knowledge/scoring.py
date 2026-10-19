@@ -1,7 +1,7 @@
 """Transparent prioritisation scores; never a probability of being hired."""
 
+from collections.abc import Mapping
 from dataclasses import dataclass
-from typing import Mapping
 
 
 @dataclass(frozen=True, slots=True)
