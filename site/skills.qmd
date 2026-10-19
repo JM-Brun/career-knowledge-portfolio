@@ -1,0 +1,29 @@
+---
+title: "Compétences techniques"
+---
+
+# Compétences techniques
+
+L'objectif est de décrire ce que je sais réellement mettre en œuvre, et non d'accumuler des mots-clés. Le niveau affiché pour chaque technologie devra être étayé par des exemples concrets.
+
+## Développement logiciel
+
+- **Python** — pratique déclarée avancée ; les preuves à mettre en avant incluent la conception de modules, le typage, les tests et la maintenabilité.
+- **Qualité logicielle** — tests automatisés, séparation des responsabilités, validation des données et reproductibilité ; niveau à illustrer par des projets publiables.
+
+## Data Science et Machine Learning
+
+- **Analyse de données et ML** — domaine de pratique à détailler à partir des réalisations, des modèles utilisés et des protocoles d'évaluation.
+- **Évaluation de modèles** — travaux autour des métriques, de la comparaison de systèmes et de l'analyse des erreurs.
+- **Mathématiques et statistiques** — connaissances à présenter par thème, en distinguant compréhension théorique et capacité de mise en œuvre.
+
+## LLM et IA générative
+
+- **Évaluation des hallucinations** — travaux sur des benchmarks, des fact-checkers, des métriques agrégées et l'étude de seuils.
+- **Systèmes de connaissances avec LLM** — travaux sur l'ingestion de sources, la génération d'une base de connaissances et la recherche.
+
+## Environnements et outils
+
+Les versions, frameworks et bibliothèques seront associés aux projets où ils ont réellement été utilisés. Une technologie testée ponctuellement ne sera pas présentée comme maîtrisée.
+
+> Cette page constitue une première taxonomie. Elle devra être révisée pour préciser le niveau, le contexte d'utilisation et les preuves de chaque compétence.
