@@ -1,0 +1,31 @@
+---
+title: "Projets"
+---
+
+# Projets sélectionnés
+
+Chaque projet conséquent aura son propre dépôt GitHub. Cette page en résumera l'objectif, ma contribution et les enseignements, puis renverra vers le dépôt dédié lorsque celui-ci sera prêt et publiable.
+
+## Benchmark d'évaluation des hallucinations des LLM
+
+**Thèmes :** évaluation de modèles, Python, Streamlit, métriques, analyse d'erreurs.
+
+Travail sur une application de benchmark comparant plusieurs approches de détection des hallucinations. Les sujets techniques incluent l'agrégation correcte des métriques, la comparaison de fact-checkers, l'analyse de seuils et la présentation des résultats.
+
+La fiche détaillée devra préciser les jeux de données et méthodes réellement publiables, les choix d'évaluation, les limites des comparaisons et les contributions personnelles. Les résultats chiffrés ne seront affichés qu'après vérification du protocole et des calculs.
+
+**Dépôt dédié :** à relier lorsque le dépôt public du projet aura été sélectionné ou créé.
+
+## LLM Wiki — base de connaissances maintenue avec des LLM
+
+**Thèmes :** ingestion de sources, génération de connaissances structurées, recherche, validation et automatisation.
+
+Travail sur un système de construction et de maintenance d'une base de connaissances à partir de sources, avec une attention portée à la provenance, à la qualité des contenus générés et aux mécanismes de validation.
+
+La présentation publique devra expliquer l'architecture, les risques identifiés et les améliorations effectivement apportées, sans exposer les contenus privés ni les informations non destinées à la publication.
+
+**Dépôt dédié :** à relier après décision sur ce qui peut être rendu public.
+
+## Ajouter un projet
+
+Chaque nouvelle fiche devrait préciser : le contexte, le problème, mon rôle, l'architecture, les technologies utilisées, les tests ou évaluations, les résultats, les limites et le lien vers le dépôt dédié.
