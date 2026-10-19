@@ -3,20 +3,22 @@ project:
   output-dir: _site
 
 website:
-  title: "Career Knowledge Engineering"
-  description: "Evidence-first career research tooling — architecture, evaluation, and lessons learned."
+  title: "Portfolio professionnel"
+  description: "Parcours, compétences techniques et projets de JM-Brun."
   navbar:
     left:
       - href: index.qmd
-        text: Overview
-      - href: architecture.qmd
-        text: Architecture
-      - href: methodology.qmd
-        text: Methodology
-      - href: evaluation.qmd
-        text: Evaluation
-      - href: roadmap.qmd
-        text: Roadmap
+        text: Accueil
+      - href: profile.qmd
+        text: Profil
+      - href: experience.qmd
+        text: Parcours
+      - href: skills.qmd
+        text: Compétences
+      - href: projects.qmd
+        text: Projets
+      - href: knowledge.qmd
+        text: Connaissances
 
 format:
   html:
