@@ -3,22 +3,22 @@ project:
   output-dir: _site
 
 website:
-  title: "Portfolio professionnel"
-  description: "Parcours, compétences techniques et projets de JM-Brun."
+  title: "Jean-Marc Brun — Portfolio"
+  description: "Selected work across scientific modelling, software engineering, data science, and machine learning."
   navbar:
     left:
       - href: index.qmd
-        text: Accueil
+        text: Home
       - href: profile.qmd
-        text: Profil
+        text: Profile
       - href: experience.qmd
-        text: Parcours
+        text: Experience
       - href: skills.qmd
-        text: Compétences
+        text: Skills
       - href: projects.qmd
-        text: Projets
+        text: Projects
       - href: knowledge.qmd
-        text: Connaissances
+        text: Topics
 
 format:
   html:
