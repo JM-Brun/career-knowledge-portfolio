@@ -30,6 +30,14 @@ This paper presents a reduced-complexity model for passive-scalar transport and 
 
 These two publications are related outputs on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
+### Contribution to a public-health exposure study (2006)
+
+**Évaluation de l’exposition aérienne aux pesticides de la population générale — Étude en air extérieur dans quatre sites de l’Hérault en 2006**
+
+The report by the French public-health surveillance institute (Institut de veille sanitaire, now part of Santé publique France) examines pesticide concentrations in outdoor air at four sites in Hérault and discusses population exposure. Jean-Marc Brun is listed in the report among the people who also participated in the study; the report does not specify an individual role or contribution.
+
+- [Study report (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+
 ## LLM hallucination evaluation benchmark
 
 **Goal**
