@@ -1,10 +1,34 @@
 ---
-title: "Projects"
+title: "Projects and research"
 ---
 
-# Selected projects
+# Selected technical work
 
-This page summarises the technical questions addressed by selected projects. Links to dedicated repositories, demos, and reports will be added when those artefacts are publicly available and ready for independent review.
+This page brings together software projects and scientific publications. Each item is linked to a public source that can be inspected independently.
+
+## Scientific publications
+
+### Reduced-Order Modelling of Dispersion (2008)
+
+**Jean-Marc Brun and Bijan Mohammadi**  
+Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
+
+The chapter presents low-complexity models for passive-scalar transport and dispersion in environmental applications. The approach combines reduced-dimensional solution spaces, similarity solutions, data assimilation, and sensitivity analysis. It is designed to estimate concentrations without solving a full PDE over the entire domain.
+
+- [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
+- [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
+
+### Similitude généralisée et modélisation géométrique à complexité réduite (2006)
+
+**Bijan Mohammadi and Jean-Marc Brun**  
+*Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
+
+This paper presents a reduced-complexity model for passive-scalar transport and dispersion in environmental applications. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification. The method is mesh-free and can estimate the solution at a point without computing the full spatial field.
+
+- [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
+- [Alternative bibliographic record — Semantic Scholar](https://www.semanticscholar.org/paper/Similitude-g%C3%A9n%C3%A9ralis%C3%A9e-et-mod%C3%A9lisation-g%C3%A9om%C3%A9trique-Mohammadi-Brun/16f7bdf72d12165abf39078f4078438162304fbe)
+
+These two publications are related outputs on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
 ## LLM hallucination evaluation benchmark
 
@@ -24,9 +48,9 @@ Compare approaches to detecting unsupported or hallucinated content in language-
 
 Evaluation engineering: defining labels and units of analysis, checking metric validity, and distinguishing supported conclusions from claims the data cannot justify.
 
-**Publication status**
+**Repository status**
 
-The technical scope is identified. A public repository, shareable datasets, full protocol, and numerical results must be verified before links or results are published.
+A public repository URL, shareable datasets, full protocol, and numerical results have not yet been verified. No repository link or benchmark result is claimed here.
 
 ## LLM Wiki — building a source-grounded knowledge base
 
@@ -52,16 +76,18 @@ Knowledge engineering for LLM-based systems: provenance, validation, maintainabi
 
 The repository contains the implementation and project documentation. Its current state and limitations should be reviewed alongside the code.
 
-## Broader themes
+## Broader technical themes
 
 - Atmospheric dispersion and environmental modelling
-- Applied mathematics and scientific computing
+- Reduced-order modelling, applied mathematics, and scientific computing
 - Software engineering and software quality
 - Data science, statistics, and machine learning
 - LLM evaluation and hallucination detection
 - Knowledge engineering and source traceability
 - Reproducible experiments and engineering workflows
 
-## Project documentation
+## Scope and attribution
 
-Where applicable, each project entry should provide the problem statement, scope, personal contribution, architecture and design decisions, tests or evaluation protocol, verifiable results and limitations, reproduction instructions, and a link to its dedicated repository.
+The scientific publications above are linked to publisher records that identify Jean-Marc Brun as an author. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications unless authorship or a specific contribution can be verified.
+
+For software projects, the portfolio will link to dedicated repositories, demos, and reports when those artefacts are publicly available and ready for independent review.
