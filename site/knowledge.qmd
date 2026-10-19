@@ -1,0 +1,24 @@
+---
+title: "Connaissances"
+---
+
+# Connaissances et domaines d'approfondissement
+
+Cette page distingue les connaissances déjà mobilisées dans des projets des sujets actuellement étudiés.
+
+## Sujets mobilisés dans des travaux techniques
+
+- évaluation comparative de systèmes de langage ;
+- métriques de classification et agrégation des résultats ;
+- analyse des seuils et des compromis entre métriques ;
+- structuration, validation et recherche dans une base de connaissances ;
+- conception de logiciels Python avec tests et séparation des responsabilités.
+
+## Sujets d'approfondissement
+
+- fondations mathématiques de la Data Science : algèbre linéaire, calcul différentiel, optimisation, probabilités et statistiques ;
+- validation du Machine Learning : généralisation, fuite de données, calibration et choix des métriques ;
+- entraînement et adaptation de petits modèles de langage, dont le fine-tuning et LoRA/QLoRA ;
+- évaluation robuste des systèmes LLM, qualité des données et reproductibilité.
+
+Cette liste décrit des thèmes travaillés ou étudiés, pas une revendication de maîtrise experte dans chacun d'eux. Les progrès et preuves pourront être ajoutés au fil des projets et évaluations.
