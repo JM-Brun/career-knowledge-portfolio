@@ -1,0 +1,27 @@
+---
+title: "Profil"
+---
+
+# Profil professionnel
+
+Mon parcours combine des sujets de développement logiciel, de Data Science et de Machine Learning. Je m'intéresse particulièrement aux systèmes d'IA dont la qualité peut être évaluée, aux outils qui rendent les résultats traçables et aux logiciels conçus pour être maintenables.
+
+Cette présentation devra être affinée à partir du parcours professionnel vérifié : intitulés de postes, secteurs, années d'expérience, responsabilités et types de problèmes traités.
+
+## Positionnement
+
+Les axes techniques à présenter en priorité sont :
+
+- développement Python et qualité logicielle ;
+- analyse de données et Machine Learning ;
+- évaluation des modèles et analyse d'erreurs ;
+- modèles de langage et systèmes fondés sur les LLM.
+
+Ces axes ne sont pas tous équivalents en niveau de maîtrise. La page [Compétences](skills.qmd) devra distinguer l'expérience pratique, les connaissances théoriques et les sujets encore en cours d'approfondissement.
+
+## Ce que je souhaite rendre visible
+
+- des problèmes concrets et le raisonnement utilisé pour les résoudre ;
+- des décisions techniques argumentées ;
+- des tests et évaluations adaptés au problème ;
+- une compréhension honnête des limites et des pistes d'amélioration.
