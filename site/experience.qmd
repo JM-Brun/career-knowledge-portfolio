@@ -1,0 +1,17 @@
+---
+title: "Parcours professionnel"
+---
+
+# Parcours professionnel
+
+Cette page présentera les entreprises, postes, périodes et principales contributions, dans l'ordre chronologique inverse.
+
+Pour chaque expérience, le contenu sera structuré autour de :
+
+- **Entreprise et contexte** : secteur, produit ou service, équipe, dans la mesure où ces informations sont publiables.
+- **Rôle et périmètre** : responsabilités réelles et niveau d'autonomie.
+- **Réalisations** : problèmes traités, solutions mises en œuvre et contribution personnelle.
+- **Environnement technique** : outils et technologies réellement utilisés dans ce poste.
+- **Résultats** : effets vérifiables, sans divulguer de données confidentielles.
+
+Les noms d'employeurs, intitulés, dates et réalisations seront ajoutés à partir du CV ou d'une chronologie confirmée. Ils ne doivent pas être déduits des dépôts GitHub ni inventés.
