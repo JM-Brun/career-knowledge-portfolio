@@ -1,0 +1,19 @@
+# Methodology
+
+## What is measured
+
+The system should be evaluated as separate stages: source capture, structured extraction, evidence attribution, record validation, and prioritisation. A high score at one stage does not establish end-to-end reliability.
+
+## Initial benchmark design
+
+Build a synthetic set containing clear, incomplete, ambiguous, and conflicting examples. Review expected fields and evidence spans before running model-assisted extraction. Keep a held-out set separate from development examples.
+
+## Metrics
+
+- Field-level precision and recall for extracted attributes.
+- Classification metrics for requirement importance.
+- Provenance coverage for claims that influence decisions.
+- Unsupported-guess rate on intentionally underspecified inputs.
+- Ranking agreement and score stability for prioritisation.
+
+No performance claims should be made until this benchmark is implemented and run. Report sample size, uncertainty, known limitations, and representative failures.
