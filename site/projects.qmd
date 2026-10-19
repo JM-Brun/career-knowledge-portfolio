@@ -2,30 +2,70 @@
 title: "Projets"
 ---
 
-# Projets sélectionnés
+# Projets techniques
 
-Chaque projet conséquent aura son propre dépôt GitHub. Cette page en résumera l'objectif, ma contribution et les enseignements, puis renverra vers le dépôt dédié lorsque celui-ci sera prêt et publiable.
+Cette page explique le problème visé par chaque projet, ce que le projet cherche à démontrer et les critères permettant d'en juger la qualité. Les dépôts publics seront liés lorsqu'ils contiendront une version suffisamment documentée et vérifiable. Aucun résultat chiffré n'est présenté sans validation du protocole et des calculs.
 
 ## Benchmark d'évaluation des hallucinations des LLM
 
-**Thèmes :** évaluation de modèles, Python, Streamlit, métriques, analyse d'erreurs.
+**Objectif**
 
-Travail sur une application de benchmark comparant plusieurs approches de détection des hallucinations. Les sujets techniques incluent l'agrégation correcte des métriques, la comparaison de fact-checkers, l'analyse de seuils et la présentation des résultats.
+Comparer plusieurs méthodes de détection des hallucinations dans les réponses de modèles de langage, avec un protocole d'évaluation suffisamment rigoureux pour que les comparaisons soient interprétables.
 
-La fiche détaillée devra préciser les jeux de données et méthodes réellement publiables, les choix d'évaluation, les limites des comparaisons et les contributions personnelles. Les résultats chiffrés ne seront affichés qu'après vérification du protocole et des calculs.
+**Problème traité**
 
-**Dépôt dédié :** à relier lorsque le dépôt public du projet aura été sélectionné ou créé.
+Un score global isolé peut masquer des différences entre jeux de données, des effets de seuil, un déséquilibre de classes ou des erreurs d'agrégation. Comparer des systèmes nécessite donc de préciser les labels, les métriques, les unités d'analyse et les limites de chaque benchmark.
 
-## LLM Wiki — base de connaissances maintenue avec des LLM
+**Travail technique représenté**
 
-**Thèmes :** ingestion de sources, génération de connaissances structurées, recherche, validation et automatisation.
+- intégration de plusieurs fact-checkers et systèmes d'évaluation ;
+- calcul et agrégation des métriques à partir des prédictions ;
+- étude des seuils et des compromis entre métriques ;
+- visualisation des résultats et analyse des erreurs dans une application Streamlit ;
+- structuration du code et tests des composants de calcul.
 
-Travail sur un système de construction et de maintenance d'une base de connaissances à partir de sources, avec une attention portée à la provenance, à la qualité des contenus générés et aux mécanismes de validation.
+**Ce que le projet doit démontrer**
 
-La présentation publique devra expliquer l'architecture, les risques identifiés et les améliorations effectivement apportées, sans exposer les contenus privés ni les informations non destinées à la publication.
+La capacité à construire une évaluation reproductible, à vérifier la validité des métriques et à distinguer les conclusions étayées des conclusions que les données ne permettent pas de tirer.
 
-**Dépôt dédié :** à relier après décision sur ce qui peut être rendu public.
+**État de présentation**
 
-## Ajouter un projet
+Le périmètre technique est identifié. Le dépôt public, les jeux de données partageables, le protocole complet et les résultats doivent être vérifiés avant de publier un lien ou des chiffres.
 
-Chaque nouvelle fiche devrait préciser : le contexte, le problème, mon rôle, l'architecture, les technologies utilisées, les tests ou évaluations, les résultats, les limites et le lien vers le dépôt dédié.
+## LLM Wiki — construction d'une base de connaissances à partir de sources
+
+**Objectif**
+
+Construire un processus qui transforme des sources documentaires en une base de connaissances structurée, consultable et maintenable, en conservant la traçabilité vers les sources.
+
+**Problème traité**
+
+Une base de connaissances générée par un LLM peut accumuler des erreurs, perdre le contexte des sources ou devenir incohérente au fil des mises à jour. La génération seule ne suffit pas : il faut aussi valider les contenus, préserver la provenance et rendre les changements inspectables.
+
+**Travail technique représenté**
+
+- ingestion et organisation des sources ;
+- génération de pages de connaissances à partir de documents ;
+- validation de structure et contrôles de cohérence ;
+- recherche dans les connaissances produites ;
+- automatisation et intégration de contrôles dans le cycle de développement.
+
+**Ce que le projet doit démontrer**
+
+La capacité à concevoir un pipeline de connaissances auditable, à limiter les erreurs de génération et à traiter la maintenance comme un problème d'ingénierie plutôt que comme une simple génération de texte.
+
+**État de présentation**
+
+Le projet est en cours d'amélioration. Une version publique et documentée sera liée lorsqu'elle pourra être examinée indépendamment, avec son objectif, son architecture, ses limites et des instructions de reproduction.
+
+## Critères communs de présentation
+
+Chaque fiche de projet publiée doit rendre explicites :
+
+- le besoin ou la question à résoudre ;
+- l'objectif et le périmètre ;
+- ma contribution personnelle ;
+- l'architecture et les choix techniques ;
+- les tests ou le protocole d'évaluation ;
+- les résultats vérifiables et leurs limites ;
+- les instructions de reproduction et le lien vers le dépôt public dédié.
