@@ -1,0 +1,25 @@
+name: Validate portfolio site
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - '.github/workflows/validate-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: site
