@@ -1,46 +1,39 @@
-# Career Knowledge Portfolio
+# Portfolio professionnel — JM-Brun
 
-An open-source demonstration of an evidence-first, privacy-aware system for career research and technical skill development.
+Ce dépôt héberge mon **portfolio professionnel personnel** : parcours, expériences, compétences techniques, connaissances et projets sélectionnés.
 
-**Public / synthetic-only.** This repository contains reusable engineering, examples, evaluation methodology, and documentation. It must never contain personal career records, CVs, recruiter messages, private job applications, or private learning diagnostics.
+Il ne s'agit pas d'un produit logiciel autonome. Chaque projet technique conséquent doit disposer de son propre dépôt, avec son code, ses tests, sa documentation et ses décisions d'architecture. Ce portfolio en donne la synthèse et explique le rôle que j'y ai joué.
 
-## Engineering goals
+## Contenu du site
 
-- Convert job descriptions into structured, source-backed records.
-- Make skill-gap and opportunity prioritisation explainable.
-- Keep unknowns explicit and separate facts from inferences.
-- Evaluate extraction and scoring quality on synthetic, labelled examples.
-- Demonstrate typed Python, tests, reproducibility, and maintainable design.
+- **Profil** — positionnement professionnel et domaines d'intérêt.
+- **Parcours** — expériences et contributions, avec dates et périmètres vérifiés.
+- **Compétences** — technologies et méthodes, avec un niveau de maîtrise étayé.
+- **Projets** — problèmes traités, rôle personnel, approche, résultats et liens vers les dépôts dédiés.
+- **Connaissances** — sujets techniques étudiés et approfondis.
 
-## Current contents
+## Principes éditoriaux
 
-- Pydantic domain models for opportunities, requirements, evidence, and skill assessments.
-- Deterministic weighted scoring with a separate evidence-coverage value.
-- Unit tests and GitHub Actions CI (pytest, Ruff, mypy).
-- Synthetic example records under `examples/`.
-- Quarto site under `site/`, with a GitHub Pages deployment workflow.
-- Architecture, privacy policy, evaluation plan, and staged roadmap under `docs/`.
+- Ne pas inventer de poste, d'employeur, de date, de résultat ou de niveau de maîtrise.
+- Distinguer expérience professionnelle, projet personnel, expérimentation et apprentissage.
+- Décrire précisément ma contribution personnelle à chaque réalisation.
+- Relier les affirmations importantes à des livrables, dépôts, démonstrations ou éléments vérifiables lorsque c'est possible.
+- Ne publier aucune information confidentielle provenant d'un employeur, d'un client ou d'un projet privé.
 
-## Run locally
+## Site
 
-Requires Python 3.11+ and Quarto only if rendering the site.
+Le site est construit avec [Quarto](https://quarto.org/) et publié sur GitHub Pages via GitHub Actions. Les pages sont dans `site/`.
+
+Pour prévisualiser localement :
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e '.[dev]'
-pytest
-ruff check src tests
-mypy
-python -c 'import json; print(json.load(open("examples/score-input.json")))'
+quarto render site
 ```
 
-To render the site: `quarto render site`. To enable publishing, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. The workflow publishes changes under `site/` on `main`.
+Pour activer la publication, ouvrir **Settings → Pages** dans ce dépôt et choisir **GitHub Actions** comme source de déploiement.
 
-## Scoring contract
+## Structure des dépôts
 
-Scores are prioritisation aids, not estimates of hiring probability. Dimensions use a 0–4 scale and documented weights. Unknown dimensions are excluded from the score denominator but reduce evidence coverage; an all-unknown record has no score. Hard constraints are reviewed separately.
-
-## Next milestone
-
-Create and label a synthetic benchmark, freeze a held-out split, then report field-level extraction metrics, provenance coverage, unsupported-guess rate, ranking stability, sample sizes, and failure analysis. No performance claim is made before that evaluation exists.
+- Ce dépôt : portfolio, récit professionnel et liens vers les réalisations.
+- Dépôts de projets : code, données partageables, tests, documentation et démonstrations propres à chaque projet.
+- Dépôt privé `career-knowledge` : notes personnelles de carrière et de progression, jamais copiées automatiquement dans ce dépôt public.
