@@ -1,19 +1,17 @@
-# Methodology
+---
+title: "Méthode de travail"
+---
 
-## What is measured
+# Une démarche technique explicite
 
-The system should be evaluated as separate stages: source capture, structured extraction, evidence attribution, record validation, and prioritisation. A high score at one stage does not establish end-to-end reliability.
+Pour les projets où cela s'applique, je cherche à rendre visibles les étapes suivantes :
 
-## Initial benchmark design
+- formuler le problème et les critères de réussite ;
+- examiner la qualité, la provenance et les limites des données ;
+- établir une référence simple avant d'ajouter de la complexité ;
+- séparer expérimentation, validation et évaluation finale ;
+- documenter les décisions et les compromis ;
+- automatiser les vérifications pertinentes ;
+- analyser les erreurs plutôt que de s'arrêter à une métrique globale.
 
-Build a synthetic set containing clear, incomplete, ambiguous, and conflicting examples. Review expected fields and evidence spans before running model-assisted extraction. Keep a held-out set separate from development examples.
-
-## Metrics
-
-- Field-level precision and recall for extracted attributes.
-- Classification metrics for requirement importance.
-- Provenance coverage for claims that influence decisions.
-- Unsupported-guess rate on intentionally underspecified inputs.
-- Ranking agreement and score stability for prioritisation.
-
-No performance claims should be made until this benchmark is implemented and run. Report sample size, uncertainty, known limitations, and representative failures.
+Cette page décrit une intention de travail. Les pages de projets devront préciser quelles pratiques ont réellement été appliquées à chaque réalisation.
