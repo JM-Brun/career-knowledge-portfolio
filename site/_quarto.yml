@@ -11,6 +11,8 @@ website:
         text: Overview
       - href: architecture.qmd
         text: Architecture
+      - href: methodology.qmd
+        text: Methodology
       - href: evaluation.qmd
         text: Evaluation
       - href: roadmap.qmd
