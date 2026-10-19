@@ -1,22 +1,25 @@
-# Career Knowledge Engineering
+---
+title: "Portfolio professionnel"
+---
 
-This project explores how to build a trustworthy, maintainable system for structured career research and skills planning. It treats job descriptions and learning resources as evidence-bearing inputs, not as prompts to be blindly trusted.
+# Data, Machine Learning et ingénierie logicielle
 
-## Design goals
+Ce site présente mon parcours, mes compétences techniques, les connaissances que je développe et les projets sur lesquels j'ai travaillé.
 
-- **Traceability:** consequential claims link to source evidence.
-- **Explicit uncertainty:** unknown is a valid state; missing data is not guessed.
-- **Explainability:** prioritisation scores expose their inputs, weights, and coverage.
-- **Human control:** extracted records require review; applications are never sent automatically.
-- **Privacy by design:** public examples are synthetic; personal career records stay in a separate private repository.
-- **Engineering quality:** typed domain models, deterministic logic, tests, linting, and CI.
+L'objectif est de rendre visibles les réalisations concrètes : le problème traité, les choix techniques, ma contribution, les limites rencontrées et les résultats vérifiables. Les projets détaillés sont présentés dans leurs dépôts GitHub respectifs.
 
-## Current implementation
+::: {.callout-note}
+**Site en cours de construction.** Les expériences, dates et niveaux de maîtrise seront renseignés à partir d'informations vérifiées. Aucune expérience ou compétence ne doit être déduite d'un simple intérêt ou d'une expérimentation ponctuelle.
+:::
 
-The repository contains typed Pydantic models for opportunities, requirements, evidence, and skill assessments, plus a deterministic scoring function and unit tests. The site and CI workflow are included as a starter scaffold; published evaluation results will be added only after a labelled benchmark exists.
+## Explorer
 
-## Scope discipline
+- [Profil](profile.qmd) — positionnement et objectifs professionnels.
+- [Parcours](experience.qmd) — expériences et contributions.
+- [Compétences](skills.qmd) — technologies, méthodes et niveau de pratique.
+- [Projets](projects.qmd) — réalisations et liens vers leurs dépôts dédiés.
+- [Connaissances](knowledge.qmd) — domaines techniques étudiés et approfondis.
 
-This is a decision-support tool, not a hiring-probability model. It does not scrape at scale, submit applications, or contact recruiters autonomously. Semantic search and LLM extraction will be added only behind evaluation and human-review boundaries.
+## Ma démarche
 
-See [architecture](architecture.qmd), [evaluation](evaluation.qmd), and [roadmap](roadmap.qmd).
+Je privilégie des réalisations reproductibles, une justification explicite des choix techniques, l'évaluation des résultats et une documentation qui permet de comprendre non seulement ce qui a été construit, mais aussi pourquoi.
