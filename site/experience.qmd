@@ -6,7 +6,7 @@ title: "Experience"
 
 For the most complete current career timeline, see my [LinkedIn profile](https://www.linkedin.com/in/brunjm/).
 
-This portfolio currently documents selected scientific publications and technical projects separately from the full employment history. I will add role-by-role entries here once dates, responsibilities, technical scope, and outcomes can be cross-checked against reliable records.
+My professional experience includes five years as a Data Scientist in the Qlik/Talend lab. The work areas I can currently describe at a high level include data analysis and statistics, classical machine learning, LLM/NLP and generative AI, Python development and industrialization, experimentation, benchmarks, and model evaluation. Specific projects, dates, quantitative outcomes, and individual contributions will be added only when they can be documented reliably.
 
 ## Research and scientific modelling
 
