@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "career-knowledge-demo"
+version = "0.1.0"
+description = "Evidence-first structured career research tools, demonstrated with synthetic data."
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.7,<3", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "mypy>=1.10", "ruff>=0.5", "jsonschema>=4.22"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/career_knowledge"]
