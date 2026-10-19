@@ -14,19 +14,25 @@ This page groups technical methods by domain. The focus is on skills connected t
 
 ## Data science and machine learning
 
-- Data analysis and model development
-- Classification metrics, model comparison, threshold analysis, and error analysis
-- Validation methodology, data leakage, calibration, and generalisation
-- Experimental design and the distinction between predictive discrimination and probability calibration
+Five years of professional Data Science work in the Qlik/Talend lab has included:
 
-These areas are being consolidated through diagnostics and implementation work; they should not be interpreted as independently validated mastery of every method.
+- Data analysis and statistical work
+- Classical machine learning
+- Experimentation, benchmarks, and model evaluation
+- Model comparison, classification metrics, threshold analysis, and error analysis
 
-## LLMs and knowledge engineering
+Validation methodology, data leakage, calibration, uncertainty quantification, and generalisation are important areas of active technical consolidation. The portfolio does not imply independent mastery of every statistical or ML method; project-level evidence and explicit limitations take precedence over a list of skills.
+
+## LLMs, NLP, and knowledge engineering
+
+Professional work areas include LLM/NLP and generative AI. Current public technical evidence includes:
 
 - Evaluation of hallucination-detection and fact-checking approaches
 - Benchmark metrics, aggregation, and threshold studies
 - LLM-assisted source ingestion and structured knowledge generation
 - Markdown/YAML-based knowledge organisation, validation, and lexical search
+
+Specific proficiency in retrieval-augmented generation, fine-tuning, LoRA/QLoRA, and advanced statistical evaluation should be judged from dedicated experiments rather than inferred from broad work-area labels.
 
 ## Scientific computing and environmental modelling
 
