@@ -46,9 +46,11 @@ Turn documentary sources into a structured, searchable, maintainable knowledge b
 
 Knowledge engineering for LLM-based systems: provenance, validation, maintainability, and treating generated content as an engineering artefact rather than trusting generation alone.
 
-**Publication status**
+**Repository**
 
-The project is being improved. A public version will be linked when its architecture, limitations, documentation, and reproduction instructions are ready for independent review.
+[Wiki Knowledge on GitHub](https://github.com/JM-Brun/wiki-knowledge)
+
+The repository contains the implementation and project documentation. Its current state and limitations should be reviewed alongside the code.
 
 ## Broader themes
 
