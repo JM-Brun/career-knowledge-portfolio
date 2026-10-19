@@ -4,7 +4,9 @@ title: "Profile"
 
 # Profile
 
-My background spans scientific modelling, software development, data science, and machine learning. I am particularly interested in systems whose behaviour can be evaluated, whose outputs can be traced to evidence, and whose implementation remains maintainable.
+My background combines earlier academic research in mathematical and environmental modelling with five years of professional Data Science experience in the Qlik/Talend lab. My reported work spans data analysis and statistics, classical machine learning, LLM/NLP and generative AI, Python development and industrialization, experimentation, benchmarks, and model evaluation.
+
+I am particularly interested in research-oriented Data Science and applied AI: formulating testable questions, comparing methods with sound baselines, analysing uncertainty and failure cases, and building reproducible implementations. I use Python almost daily and have practised ML substantively within the last 12 months; the portfolio links concrete work where it can be inspected.
 
 ## Technical focus
 
