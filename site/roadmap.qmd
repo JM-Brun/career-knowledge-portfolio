@@ -1,29 +1,15 @@
-# Roadmap
+---
+title: "Évolution du portfolio"
+---
 
-## Phase 1 — reliable core
+# Prochaines étapes
 
-- [x] Establish private/public data separation.
-- [x] Add typed domain models and deterministic scoring.
-- [x] Add unit tests and CI workflow.
-- [x] Add a Quarto site scaffold and deployment workflow.
-- [ ] Run CI and fix any environment-specific failures.
+- [ ] Renseigner le parcours professionnel à partir des dates, intitulés et missions vérifiés.
+- [ ] Ajouter une présentation personnelle concise et les rôles recherchés.
+- [ ] Construire une matrice de compétences avec niveau de pratique et preuves.
+- [ ] Documenter les projets réellement réalisés et distinguer travail professionnel, projets personnels et prototypes.
+- [ ] Créer ou relier un dépôt dédié pour chaque projet technique sélectionné.
+- [ ] Ajouter des résultats, captures ou démonstrations uniquement lorsqu'ils sont publiables et vérifiables.
+- [ ] Vérifier la publication du site GitHub Pages.
 
-## Phase 2 — measured extraction
-
-- [ ] Create a synthetic, labelled dataset.
-- [ ] Add deterministic baseline extraction.
-- [ ] Compare optional LLM extraction against the baseline.
-- [ ] Publish field-level error analysis and limitations.
-
-## Phase 3 — usable workflow
-
-- [ ] Add CLI commands for validating and scoring JSON records.
-- [ ] Add report generation with evidence links.
-- [ ] Add data-quality checks for stale postings and duplicate roles.
-
-## Not planned until justified
-
-- Autonomous applications or recruiter outreach.
-- Hiring probability estimates.
-- A vector database without retrieval benchmarks.
-- Complex agent orchestration before deterministic workflows have demonstrated value.
+Le site ne doit pas remplacer la preuve technique : il doit orienter le lecteur vers les réalisations et expliquer clairement leur contexte.
