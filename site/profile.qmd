@@ -1,27 +1,21 @@
 ---
-title: "Profil"
+title: "Profile"
 ---
 
-# Profil professionnel
+# Profile
 
-Mon parcours combine des sujets de développement logiciel, de Data Science et de Machine Learning. Je m'intéresse particulièrement aux systèmes d'IA dont la qualité peut être évaluée, aux outils qui rendent les résultats traçables et aux logiciels conçus pour être maintenables.
+My background spans scientific modelling, software development, data science, and machine learning. I am particularly interested in systems whose behaviour can be evaluated, whose outputs can be traced to evidence, and whose implementation remains maintainable.
 
-Cette présentation devra être affinée à partir du parcours professionnel vérifié : intitulés de postes, secteurs, années d'expérience, responsabilités et types de problèmes traités.
+## Technical focus
 
-## Positionnement
+- Software engineering, Python development, testing, and maintainability
+- Data analysis, statistical reasoning, and machine learning
+- Model evaluation, error analysis, and benchmark design
+- Large language models and source-grounded knowledge systems
+- Applied mathematics, numerical simulation, and environmental modelling
 
-Les axes techniques à présenter en priorité sont :
+These areas represent different kinds of experience and ongoing work; they should not be interpreted as equivalent levels of expertise. The [Skills](skills.qmd) page connects claims to concrete examples where possible.
 
-- développement Python et qualité logicielle ;
-- analyse de données et Machine Learning ;
-- évaluation des modèles et analyse d'erreurs ;
-- modèles de langage et systèmes fondés sur les LLM.
+## Approach
 
-Ces axes ne sont pas tous équivalents en niveau de maîtrise. La page [Compétences](skills.qmd) devra distinguer l'expérience pratique, les connaissances théoriques et les sujets encore en cours d'approfondissement.
-
-## Ce que je souhaite rendre visible
-
-- des problèmes concrets et le raisonnement utilisé pour les résoudre ;
-- des décisions techniques argumentées ;
-- des tests et évaluations adaptés au problème ;
-- une compréhension honnête des limites et des pistes d'amélioration.
+I aim to make technical work understandable through clear problem statements, justified design choices, appropriate tests and evaluation protocols, and explicit limitations.
