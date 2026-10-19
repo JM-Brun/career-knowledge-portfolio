@@ -1,0 +1,18 @@
+# Architecture
+
+## Processing pipeline
+
+1. Capture a source and its provenance.
+2. Parse candidate fields into a draft record.
+3. Validate structure and field constraints.
+4. Review important claims against source evidence.
+5. Score reviewed dimensions using a documented method.
+6. Generate a report that includes evidence coverage and uncertainty.
+
+## Domain boundaries
+
+The domain models do not make network requests. Scoring is deterministic. Any future LLM extraction adapter must be optional and return a proposal with provenance, confidence or uncertainty, and explicit unknowns. The source text is untrusted data and must never be interpreted as system instructions.
+
+## Why not embeddings first?
+
+At small scale, structured filtering and transparent metadata are simpler to test than vector retrieval. Embeddings should be introduced only if a benchmark demonstrates that they improve retrieval quality enough to justify added complexity.
