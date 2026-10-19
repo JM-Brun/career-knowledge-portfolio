@@ -1,24 +1,33 @@
 ---
-title: "Connaissances"
+title: "Topics"
 ---
 
-# Connaissances et domaines d'approfondissement
+# Scientific and technical topics
 
-Cette page distingue les connaissances déjà mobilisées dans des projets des sujets actuellement étudiés.
+This page brings together areas explored through research, engineering work, and structured learning. It distinguishes topics applied in projects from topics currently being studied.
 
-## Sujets mobilisés dans des travaux techniques
+## Scientific modelling and applied mathematics
 
-- évaluation comparative de systèmes de langage ;
-- métriques de classification et agrégation des résultats ;
-- analyse des seuils et des compromis entre métriques ;
-- structuration, validation et recherche dans une base de connaissances ;
-- conception de logiciels Python avec tests et séparation des responsabilités.
+- Atmospheric dispersion and environmental modelling
+- Applied mathematics, numerical simulation, and scientific computing
+- Fluid mechanics and environmental processes, where supported by confirmed research records
 
-## Sujets d'approfondissement
+## Software engineering
 
-- fondations mathématiques de la Data Science : algèbre linéaire, calcul différentiel, optimisation, probabilités et statistiques ;
-- validation du Machine Learning : généralisation, fuite de données, calibration et choix des métriques ;
-- entraînement et adaptation de petits modèles de langage, dont le fine-tuning et LoRA/QLoRA ;
-- évaluation robuste des systèmes LLM, qualité des données et reproductibilité.
+- Python software design, typing, testing, and separation of concerns
+- Maintainability, data validation, automation, and reproducible workflows
+- Backend engineering and API design
 
-Cette liste décrit des thèmes travaillés ou étudiés, pas une revendication de maîtrise experte dans chacun d'eux. Les progrès et preuves pourront être ajoutés au fil des projets et évaluations.
+## Data science and machine learning
+
+- Classification metrics and aggregation of evaluation results
+- Model validation, generalisation, data leakage, and calibration
+- Threshold selection, error analysis, and experimental reproducibility
+
+## LLMs and knowledge systems
+
+- Evaluation of language-model outputs and hallucination-detection systems
+- Small language models and parameter-efficient fine-tuning, including LoRA/QLoRA
+- Source ingestion, structured knowledge generation, provenance, and validation
+
+This is a map of topics worked on or being studied, not a claim of expert-level mastery in every area. Project evidence and learning progress will be added as they become available.
