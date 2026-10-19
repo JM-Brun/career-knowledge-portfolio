@@ -16,6 +16,18 @@ My background spans scientific modelling, software development, data science, an
 
 These areas represent different kinds of experience and ongoing work; they should not be interpreted as equivalent levels of expertise. The [Skills](skills.qmd) page connects claims to concrete examples where possible.
 
+## Selected scientific work
+
+My earlier scientific work includes publications on reduced-order modelling and environmental dispersion:
+
+- [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
+- [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
+
+## Professional profiles
+
+- [LinkedIn](https://www.linkedin.com/in/brunjm/)
+- [ResearchGate](https://www.researchgate.net/profile/Jean-Marc-Brun)
+
 ## Approach
 
 I aim to make technical work understandable through clear problem statements, justified design choices, appropriate tests and evaluation protocols, and explicit limitations.
