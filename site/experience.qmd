@@ -2,16 +2,14 @@
 title: "Experience"
 ---
 
-# Experience
+# Professional experience
 
-This page will describe professional roles in reverse chronological order, using confirmed dates and responsibilities.
+For the most complete current career timeline, see my [LinkedIn profile](https://www.linkedin.com/in/brunjm/).
 
-Each entry will cover:
+This portfolio currently documents selected scientific publications and technical projects separately from the full employment history. I will add role-by-role entries here once dates, responsibilities, technical scope, and outcomes can be cross-checked against reliable records.
 
-- **Organisation and context** — sector, product, service, and team where shareable.
-- **Role and scope** — actual responsibilities and level of ownership.
-- **Contributions** — problems addressed, solutions implemented, and my specific role.
-- **Technical environment** — tools and technologies used in that role.
-- **Outcomes** — verifiable effects, without disclosing confidential information.
+## Research and scientific modelling
 
-Employer names, job titles, dates, and achievements will be added or refined against a confirmed career timeline. They will not be inferred from GitHub repositories or guessed.
+My documented scientific work includes research on reduced-order modelling and environmental dispersion, including a 2006 journal article, a 2008 book chapter, and a public-health exposure study report that lists me among participants.
+
+See [Projects and research](projects.qmd) for the publisher records and the precise attribution of each item.

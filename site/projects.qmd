@@ -4,7 +4,7 @@ title: "Projects and research"
 
 # Selected technical work
 
-This page brings together software projects and scientific publications. Each item is linked to a public source that can be inspected independently.
+This page brings together scientific publications and software projects. Project descriptions distinguish verified implementation details from capabilities that still need validation.
 
 ## Scientific publications
 
@@ -13,7 +13,7 @@ This page brings together software projects and scientific publications. Each it
 **Jean-Marc Brun and Bijan Mohammadi**  
 Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
 
-The chapter presents low-complexity models for passive-scalar transport and dispersion in environmental applications. The approach combines reduced-dimensional solution spaces, similarity solutions, data assimilation, and sensitivity analysis. It is designed to estimate concentrations without solving a full PDE over the entire domain.
+The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. The work uses similarity-based modelling to estimate concentrations without solving a full spatial PDE over the entire domain.
 
 - [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 - [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
@@ -23,20 +23,49 @@ The chapter presents low-complexity models for passive-scalar transport and disp
 **Bijan Mohammadi and Jean-Marc Brun**  
 *Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
 
-This paper presents a reduced-complexity model for passive-scalar transport and dispersion in environmental applications. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification. The method is mesh-free and can estimate the solution at a point without computing the full spatial field.
+This paper presents a reduced-complexity approach to passive-scalar transport and dispersion. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification.
 
 - [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 - [Alternative bibliographic record — Semantic Scholar](https://www.semanticscholar.org/paper/Similitude-g%C3%A9n%C3%A9ralis%C3%A9e-et-mod%C3%A9lisation-g%C3%A9om%C3%A9trique-Mohammadi-Brun/16f7bdf72d12165abf39078f4078438162304fbe)
 
-These two publications are related outputs on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
+These publications document research on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
-### Contribution to a public-health exposure study (2006)
+### Contribution mentioned in a public-health exposure report (2006)
 
 **Évaluation de l’exposition aérienne aux pesticides de la population générale — Étude en air extérieur dans quatre sites de l’Hérault en 2006**
 
-The report by the French public-health surveillance institute (Institut de veille sanitaire, now part of Santé publique France) examines pesticide concentrations in outdoor air at four sites in Hérault and discusses population exposure. Jean-Marc Brun is listed in the report among the people who also participated in the study; the report does not specify an individual role or contribution.
+The report examines pesticide concentrations in outdoor air at four sites in Hérault and discusses population exposure. Jean-Marc Brun is listed among people who also participated in the study; the report does not specify his individual role or contribution.
 
-- [Study report (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+- [Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+
+## Wiki Knowledge — persistent, source-grounded knowledge base
+
+**Goal**
+
+Build a maintainable personal knowledge base from documentary sources, with Markdown pages, metadata, cross-links, and source traceability.
+
+**Implementation visible in the repository**
+
+- Python package with a CLI and modular engines for ingestion, search, validation, linting, synchronisation, and export
+- Markdown pages and YAML configuration/front matter
+- Pydantic-based data models and structured search results
+- Lexical retrieval using BM25 and TF-IDF
+- A Reciprocal Rank Fusion (RRF) path for combining ranked results
+- GitHub Actions workflows intended to automate source ingestion and related maintenance
+
+**Engineering focus**
+
+The project explores how to turn LLM-assisted document processing into a maintainable engineering workflow: structured outputs, traceability, validation, and explicit maintenance operations rather than relying on one-off chat responses.
+
+**Current limitations to resolve**
+
+The current search implementation's vector-search method falls back to the BM25 path; it should not yet be described as a functioning embedding-based semantic search system. The README and some automation workflows also appear out of sync with the package layout and declared Python requirements. These are tracked as engineering follow-up work, and the repository's checks should be run before relying on every documented workflow.
+
+**Repository and documentation**
+
+- [Wiki Knowledge source code](https://github.com/JM-Brun/wiki-knowledge)
+- [README and architecture overview](https://github.com/JM-Brun/wiki-knowledge#readme)
+- [Open issues and engineering follow-up](https://github.com/JM-Brun/wiki-knowledge/issues)
 
 ## LLM hallucination evaluation benchmark
 
@@ -60,42 +89,17 @@ Evaluation engineering: defining labels and units of analysis, checking metric v
 
 A public repository URL, shareable datasets, full protocol, and numerical results have not yet been verified. No repository link or benchmark result is claimed here.
 
-## LLM Wiki — building a source-grounded knowledge base
-
-**Goal**
-
-Turn documentary sources into a structured, searchable, maintainable knowledge base while preserving traceability to source material.
-
-**Technical work**
-
-- Source ingestion and organisation
-- Generation of knowledge pages from documents
-- Structural validation and consistency checks
-- Search across generated knowledge
-- Automation and integration of checks into the development workflow
-
-**What it demonstrates**
-
-Knowledge engineering for LLM-based systems: provenance, validation, maintainability, and treating generated content as an engineering artefact rather than trusting generation alone.
-
-**Repository**
-
-[Wiki Knowledge on GitHub](https://github.com/JM-Brun/wiki-knowledge)
-
-The repository contains the implementation and project documentation. Its current state and limitations should be reviewed alongside the code.
-
 ## Broader technical themes
 
 - Atmospheric dispersion and environmental modelling
 - Reduced-order modelling, applied mathematics, and scientific computing
-- Software engineering and software quality
+- Software engineering, testing, and maintainability
 - Data science, statistics, and machine learning
 - LLM evaluation and hallucination detection
-- Knowledge engineering and source traceability
-- Reproducible experiments and engineering workflows
+- Knowledge engineering, provenance, and reproducible workflows
 
-## Scope and attribution
+## Attribution and evidence
 
-The scientific publications above are linked to publisher records that identify Jean-Marc Brun as an author. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications unless authorship or a specific contribution can be verified.
+Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications because the available metadata identifies other authors.
 
-For software projects, the portfolio will link to dedicated repositories, demos, and reports when those artefacts are publicly available and ready for independent review.
+Software descriptions are based on the public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
