@@ -1,8 +1,8 @@
-# Portfolio professionnel — JM-Brun
+# Portfolio professionnel
 
 Ce dépôt héberge mon **portfolio professionnel personnel** : parcours, expériences, compétences techniques, connaissances et projets sélectionnés.
 
-Il ne s'agit pas d'un produit logiciel autonome. Chaque projet technique conséquent doit disposer de son propre dépôt, avec son code, ses tests, sa documentation et ses décisions d'architecture. Ce portfolio en donne la synthèse et explique le rôle que j'y ai joué.
+Ce n'est pas un produit logiciel autonome. Chaque projet technique conséquent doit disposer de son propre dépôt, avec un objectif explicite, son code, ses tests, sa documentation, ses limites et ses décisions d'architecture. Le portfolio présente chaque réalisation en expliquant le problème traité, ma contribution et les éléments vérifiables.
 
 ## Contenu du site
 
@@ -18,7 +18,7 @@ Il ne s'agit pas d'un produit logiciel autonome. Chaque projet technique conséq
 - Distinguer expérience professionnelle, projet personnel, expérimentation et apprentissage.
 - Décrire précisément ma contribution personnelle à chaque réalisation.
 - Relier les affirmations importantes à des livrables, dépôts, démonstrations ou éléments vérifiables lorsque c'est possible.
-- Ne publier aucune information confidentielle provenant d'un employeur, d'un client ou d'un projet privé.
+- Ne publier aucune information confidentielle provenant d'un employeur, d'un client ou d'un projet.
 
 ## Site
 
@@ -30,10 +30,11 @@ Pour prévisualiser localement :
 quarto render site
 ```
 
-Pour activer la publication, ouvrir **Settings → Pages** dans ce dépôt et choisir **GitHub Actions** comme source de déploiement.
+## Organisation et contributions
 
-## Structure des dépôts
+- Ce dépôt contient uniquement le portfolio public et son site.
+- Les projets techniques détaillés vivent dans leurs dépôts dédiés ; les liens ne sont ajoutés qu'une fois ces dépôts prêts à être présentés.
+- Toute modification passe par une pull request (PR) vers `main`. La PR doit expliquer son objectif, son périmètre et les vérifications effectuées.
+- Les changements de contenu doivent rester factuels, relus et cohérents avec les preuves disponibles.
 
-- Ce dépôt : portfolio, récit professionnel et liens vers les réalisations.
-- Dépôts de projets : code, données partageables, tests, documentation et démonstrations propres à chaque projet.
-- Dépôt privé `career-knowledge` : notes personnelles de carrière et de progression, jamais copiées automatiquement dans ce dépôt public.
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour le processus de contribution.
