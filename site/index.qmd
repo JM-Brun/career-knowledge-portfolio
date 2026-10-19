@@ -1,0 +1,22 @@
+# Career Knowledge Engineering
+
+This project explores how to build a trustworthy, maintainable system for structured career research and skills planning. It treats job descriptions and learning resources as evidence-bearing inputs, not as prompts to be blindly trusted.
+
+## Design goals
+
+- **Traceability:** consequential claims link to source evidence.
+- **Explicit uncertainty:** unknown is a valid state; missing data is not guessed.
+- **Explainability:** prioritisation scores expose their inputs, weights, and coverage.
+- **Human control:** extracted records require review; applications are never sent automatically.
+- **Privacy by design:** public examples are synthetic; personal career records stay in a separate private repository.
+- **Engineering quality:** typed domain models, deterministic logic, tests, linting, and CI.
+
+## Current implementation
+
+The repository contains typed Pydantic models for opportunities, requirements, evidence, and skill assessments, plus a deterministic scoring function and unit tests. The site and CI workflow are included as a starter scaffold; published evaluation results will be added only after a labelled benchmark exists.
+
+## Scope discipline
+
+This is a decision-support tool, not a hiring-probability model. It does not scrape at scale, submit applications, or contact recruiters autonomously. Semantic search and LLM extraction will be added only behind evaluation and human-review boundaries.
+
+See [architecture](architecture.qmd), [evaluation](evaluation.qmd), and [roadmap](roadmap.qmd).
