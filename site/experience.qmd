@@ -10,7 +10,7 @@ My path spans research-laboratory work, startup/product development, software co
 
 ## Research and scientific modelling
 
-**Context:** research-laboratory and thesis work, including work associated with Cemagref.
+**Context:** research-laboratory and thesis work, including work associated with Cemagref / FFSTAR.
 
 **Scientific scope:** applied mathematics, partial differential equations, numerical modelling, fluid mechanics, atmospheric dispersion, and environmental processes including infiltration-related questions.
 
