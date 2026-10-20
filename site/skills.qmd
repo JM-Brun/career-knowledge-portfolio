@@ -2,22 +2,25 @@
 title: "Skills"
 ---
 
-# Skills and technical experience
+# Skills demonstrated in context
 
-My profile is deliberately multidisciplinary. The categories below describe methods and technologies used in different contexts; they do not imply identical depth or recency across every item. Concrete public evidence is linked wherever it exists. Industrial work that cannot be disclosed is described at a high level without exposing proprietary artefacts.
+A technology list alone says little about the level of a skill or how it was used. This page therefore links methods and technologies to concrete work. The contexts differ in date, depth, and evidence; the list does not imply equal or current expertise in every item.
 
 ## Applied mathematics and scientific modelling
 
-- Partial differential equations and applied mathematics
+**Context:** thesis and research on environmental transport, atmospheric dispersion, and reduced-complexity models; subsequent work on urban hydrological modelling.
+
+- Applied mathematics and partial differential equations
 - Numerical simulation and reduced-order modelling
-- Fluid mechanics, atmospheric dispersion, and environmental modelling
+- Fluid mechanics, atmospheric dispersion, and environmental processes
 - Scientific reasoning: assumptions, model identification, approximation, and interpretation
+- Fortran and SURFEX–TEB
 
-**Evidence:** [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) and [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/).
-
-**Technology context:** Fortran and SURFEX–TEB in research-oriented modelling.
+**Evidence:** [2006 reduced-complexity modelling paper](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/), [2008 dispersion chapter](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14), and the [2018 TEB-Veg hydrological-modelling paper](https://gmd.copernicus.org/articles/11/4175/2018/). For model context, see the [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/) and [SURFEX overview](https://cnrm.sedoo.fr/surfex-2/).
 
 ## Statistics, Data Science, and machine learning
+
+**Context:** five years of Data Science work in the Qlik/Talend lab.
 
 - Data analysis and statistical reasoning
 - Classical machine learning
@@ -25,21 +28,25 @@ My profile is deliberately multidisciplinary. The categories below describe meth
 - Classification metrics, threshold analysis, and error analysis
 - Python development and industrialisation
 
-**Professional context:** five years of Data Science work in the Qlik/Talend lab. This includes work on data/statistics, ML, experiments, benchmarks, and evaluation. Specific methods should be assessed against project-level evidence rather than inferred from the job-family label alone.
+**Evidence:** the [industrial LLM-evaluation case study](projects/llm-hallucination-evaluation.qmd) documents the evaluation methodology at a disclosure-safe level. Specific methods should be assessed against project-level evidence rather than inferred from the job-family label alone.
 
 ## LLMs, NLP, and generative AI
 
-- Evaluation of approaches for detecting unsupported or hallucinated model outputs
-- Fact-checking and LLM-evaluation approaches
-- Benchmark metric calculation and aggregation
-- Threshold trade-offs and error analysis
-- LLM/NLP and generative-AI experimentation
+**Context:** industrial experimentation and evaluation of methods for detecting unsupported or hallucinated model outputs.
 
-**Public evidence and limits:** the industrial hallucination benchmark is described in [Projects and research](projects.qmd) as a confidential case study. No private repository, source code, internal data, or implementation-specific architecture is linked.
+- State-of-the-art review and definition of an evaluation scope
+- Independent evaluation pipeline and benchmark design
+- Fact-checking and LLM-evaluation approaches
+- Metric calculation and aggregation, threshold trade-offs, and error analysis
+- Amazon Bedrock and Python-based evaluation tooling
+
+**Evidence and limits:** the [industrial case study](projects/llm-hallucination-evaluation.qmd) describes the work without exposing private code, internal data, implementation-specific architecture, or aggregate numerical results. Qlik/Talend has not authorised disclosure of those numerical results.
 
 ## Software engineering and product development
 
-- Python — practical experience in Data Science, evaluation tooling, and public software
+**Context:** applied across research, startup/product development, ESN consulting, and enterprise software.
+
+- Python — Data Science, evaluation tooling, and public software
 - Java and Spring Boot — enterprise/backend application context
 - Scala — enterprise software context
 - JavaScript and ActionScript — application/front-end context
@@ -48,10 +55,10 @@ My profile is deliberately multidisciplinary. The categories below describe meth
 - AWS, Amazon Bedrock, Amazon SageMaker, and Kubernetes — cloud and AI-platform context
 - Software design, modularity, testing, integration, and maintainability
 
-**Public implementation example:** [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge), a Python package for source ingestion, structured knowledge organisation, validation, and lexical search. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval.
+**Public implementation evidence:** [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge), a Python package for source ingestion, structured knowledge organisation, validation, and lexical search. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval.
 
 ## Adapting across environments
 
-The experience spans research-laboratory work, startup/product development, ESN consulting, and software-vendor contexts. The common skill is adapting methods and implementation choices to different constraints: scientific validity, user needs, system integration, maintainability, and operational delivery.
+The experience spans research laboratories, startup/product development, ESN consulting, and software-vendor contexts. The common skill is adapting methods and implementation choices to different constraints: scientific validity, user needs, system integration, maintainability, and operational delivery.
 
-For detailed chronology and official role titles, see [LinkedIn](https://www.linkedin.com/in/brunjm/).
+For the full chronology and official role titles, see [LinkedIn](https://www.linkedin.com/in/brunjm/).
