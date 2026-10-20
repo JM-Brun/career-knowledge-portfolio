@@ -2,42 +2,56 @@
 title: "Skills"
 ---
 
-# Skills
+# Skills and technical experience
 
-This page groups technical methods by domain. The focus is on skills connected to documented work or identifiable implementation evidence; it does not imply the same proficiency level across all topics.
+My profile is deliberately multidisciplinary. The categories below describe methods and technologies used in different contexts; they do not imply identical depth or recency across every item. Concrete public evidence is linked wherever it exists. Industrial work that cannot be disclosed is described at a high level without exposing proprietary artefacts.
 
-## Software engineering
+## Applied mathematics and scientific modelling
 
-- **Python** — advanced practical experience reported; examples include modular application code, typing, automated tests, and maintainability.
-- **Software design and quality** — separation of concerns, data validation, testability, and reproducible workflows.
-- **Backend and tooling** — command-line interfaces, configuration, and modular Python packages, including the public Wiki Knowledge project.
+- Partial differential equations and applied mathematics
+- Numerical simulation and reduced-order modelling
+- Fluid mechanics, atmospheric dispersion, and environmental modelling
+- Scientific reasoning: assumptions, model identification, approximation, and interpretation
 
-## Data science and machine learning
+**Evidence:** [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) and [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/).
 
-Five years of professional Data Science work in the Qlik/Talend lab has included:
+**Technology context:** Fortran and SURFEX–TEB in research-oriented modelling.
 
-- Data analysis and statistical work
+## Statistics, Data Science, and machine learning
+
+- Data analysis and statistical reasoning
 - Classical machine learning
-- Experimentation, benchmarks, and model evaluation
-- Model comparison, classification metrics, threshold analysis, and error analysis
+- Experiment design, model comparison, and benchmark evaluation
+- Classification metrics, threshold analysis, and error analysis
+- Python development and industrialisation
 
-Validation methodology, data leakage, calibration, uncertainty quantification, and generalisation are important areas of active technical consolidation. The portfolio does not imply independent mastery of every statistical or ML method; project-level evidence and explicit limitations take precedence over a list of skills.
+**Professional context:** five years of Data Science work in the Qlik/Talend lab. This includes work on data/statistics, ML, experiments, benchmarks, and evaluation. Specific methods should be assessed against project-level evidence rather than inferred from the job-family label alone.
 
-## LLMs, NLP, and knowledge engineering
+## LLMs, NLP, and generative AI
 
-Professional work areas include LLM/NLP and generative AI. Current public technical evidence includes:
+- Evaluation of approaches for detecting unsupported or hallucinated model outputs
+- Fact-checking and LLM-evaluation approaches
+- Benchmark metric calculation and aggregation
+- Threshold trade-offs and error analysis
+- LLM/NLP and generative-AI experimentation
 
-- Evaluation of hallucination-detection and fact-checking approaches
-- Benchmark metrics, aggregation, and threshold studies
-- LLM-assisted source ingestion and structured knowledge generation
-- Markdown/YAML-based knowledge organisation, validation, and lexical search
+**Public evidence and limits:** the industrial hallucination benchmark is described in [Projects and research](projects.qmd) as a confidential case study. No private repository, source code, internal data, or implementation-specific architecture is linked.
 
-Specific proficiency in retrieval-augmented generation, fine-tuning, LoRA/QLoRA, and advanced statistical evaluation should be judged from dedicated experiments rather than inferred from broad work-area labels.
+## Software engineering and product development
 
-## Scientific computing and environmental modelling
+- Python — practical experience in Data Science, evaluation tooling, and public software
+- Java and Spring Boot — enterprise/backend application context
+- Scala — enterprise software context
+- JavaScript and ActionScript — application/front-end context
+- PHP and front-end development
+- BPM / business-process workflows
+- AWS, Amazon Bedrock, Amazon SageMaker, and Kubernetes — cloud and AI-platform context
+- Software design, modularity, testing, integration, and maintainability
 
-- Reduced-order modelling of passive-scalar transport and environmental dispersion
-- Applied mathematics and scientific modelling
-- Research-based work documented in the linked 2006 journal article and 2008 book chapter
+**Public implementation example:** [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge), a Python package for source ingestion, structured knowledge organisation, validation, and lexical search. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval.
 
-Tools and frameworks are linked to the projects in which they are used. A dependency listed in a project is not, by itself, evidence of a fully implemented feature.
+## Adapting across environments
+
+The experience spans research-laboratory work, startup/product development, ESN consulting, and software-vendor contexts. The common skill is adapting methods and implementation choices to different constraints: scientific validity, user needs, system integration, maintainability, and operational delivery.
+
+For detailed chronology and official role titles, see [LinkedIn](https://www.linkedin.com/in/brunjm/).
