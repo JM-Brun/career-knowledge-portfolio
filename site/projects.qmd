@@ -39,7 +39,7 @@ The report examines pesticide concentrations in outdoor air at four sites in Hé
 
 - [**TEB-Veg: urban hydrological modelling**](projects/teb-urban-modelling.qmd) — research contribution on the hydrological processes of the Town Energy Balance model, with scientific publication and official model references.
 - [**Evaluating hallucination detection for LLM outputs**](projects/llm-hallucination-evaluation.qmd) — a private industrial case study, described through methodology and qualitative findings only.
-- [**Wiki Knowledge**](https://github.com/JM-Brun/wiki-knowledge) — public Python software for source ingestion, structured knowledge organisation, validation, and lexical retrieval.
+- **Wiki Knowledge** — a personal project in a private repository exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. The repository is not linked publicly.
 
 ## Broader technical themes
 
