@@ -64,7 +64,7 @@ The current vector-search method falls back to the BM25 path; it should not yet 
 
 **Context and disclosure boundary**
 
-This work was conducted in a private Qlik/Talend industrial setting. The repository, code, datasets, and implementation-specific details are not public and are intentionally not linked here.
+This work was conducted in a private Qlik/Talend industrial setting. The internal project repository, code, datasets, and implementation-specific details are not presented as public portfolio material.
 
 **Problem and scope**
 
@@ -72,9 +72,11 @@ Language-model outputs can be fluent while containing unsupported claims. The wo
 
 **Approach**
 
-- Reviewed the relevant state of the art and defined an evaluation scope suited to factual-support and hallucination-detection tasks
-- Compared complementary families of approaches: specialised factual-consistency/fact-checking models, LLM-based evaluators, provider guardrails, and probability-based signals
-- Integrated multiple approaches into a common comparison workflow
+- Reviewed the state of the art and defined an evaluation scope for factual-support and hallucination detection
+- Built an independent evaluation pipeline and benchmark to compare approaches under a common protocol
+- Used Amazon Bedrock to evaluate an AWS guardrail-based approach and compare it with state-of-the-art small language models (SLMs)
+- Considered complementary approaches, including specialised factual-consistency/fact-checking models and LLM-based evaluators
+- Integrated the approaches into a common comparison workflow
 - Calculated and aggregated benchmark metrics from model outputs
 - Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal
 - Examined result differences and errors through an interactive Streamlit interface
@@ -82,9 +84,9 @@ Language-model outputs can be fluent while containing unsupported claims. The wo
 
 **Transferable findings**
 
-The main deliverable was a comparative evaluation workflow with a dashboard that brought benchmark scores, threshold analysis, and error inspection into one place. This made comparisons more systematic and made metric/threshold trade-offs inspectable. A central finding from the evaluation approach is that aggregate scores alone are insufficient: conclusions depend on the target metric, operating threshold, dataset composition, and error patterns. A single score or threshold should not be treated as universally optimal.
+The work produced an independent benchmark and a reusable comparison pipeline, with an interactive dashboard for metrics, threshold analysis, and error inspection. The evaluation compared an AWS guardrail-based approach available through Amazon Bedrock with state-of-the-art SLM-based alternatives; the point was to test approaches systematically rather than assume that a managed provider feature or a larger model was inherently better.
 
-No numerical performance values or claims of a universally best method are included here because no cleared, source-backed result table is linked publicly. If selected aggregate results are approved for public disclosure, they can be added without publishing the underlying data or implementation.
+The transferable conclusion is methodological: results must be interpreted against the chosen metric, operating threshold, evaluation dataset, and error patterns. No numerical scores, rankings, or claim that one approach is universally best are published. Qlik/Talend has not authorised disclosure of aggregate numerical results, so this case study is restricted to the approach and qualitative comparative observations.
 
 **What this demonstrates**
 
