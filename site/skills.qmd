@@ -46,7 +46,7 @@ A technology list alone says little about the level of a skill or how it was use
 
 **Context:** applied across research, startup/product development, ESN consulting, and enterprise software.
 
-- Python — Data Science, evaluation tooling, and public software
+- Python — Data Science, evaluation tooling, and personal software projects
 - Java and Spring Boot — enterprise/backend application context
 - Scala — enterprise software context
 - JavaScript and ActionScript — application/front-end context
@@ -55,7 +55,7 @@ A technology list alone says little about the level of a skill or how it was use
 - AWS, Amazon Bedrock, Amazon SageMaker, and Kubernetes — cloud and AI-platform context
 - Software design, modularity, testing, integration, and maintainability
 
-**Public implementation evidence:** [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge), a Python package for source ingestion, structured knowledge organisation, validation, and lexical search. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval.
+**Personal project:** Wiki Knowledge is a private-repository project exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval. Its source code is therefore not linked from this public portfolio.
 
 ## Adapting across environments
 
