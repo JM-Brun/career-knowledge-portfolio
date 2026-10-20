@@ -4,29 +4,38 @@ title: "Experience"
 
 # Professional experience
 
-For the complete career timeline and official role titles, see my [LinkedIn profile](https://www.linkedin.com/in/brunjm/). The overview below emphasises the different engineering environments and the technical transitions that connect them. It is a thematic summary rather than a replacement for the dated employment history.
+This portfolio is a curated, evidence-led overview of selected work across scientific research, software development, Data Science, and AI evaluation. It connects problems, methods, implementation, and results; it is not intended to replace the full employment chronology on [LinkedIn](https://www.linkedin.com/in/brunjm/), which remains the reference for exact employer dates and official role titles.
 
-My path spans research-laboratory work, startup/product development, software consulting in an ESN, and software-vendor environments at Talend and Qlik. This range has required adapting both the problem-solving approach and the technology stack to the context.
+My path spans research-laboratory work, startup/product development, software consulting, and software-vendor environments. The through-line is multidisciplinary problem solving: translating a domain question into a model or method, implementing it, and evaluating the result.
 
 ## Research and scientific modelling
 
-**Context:** research-laboratory and thesis work, including work associated with Cemagref / FFSTAR.
+**Thesis research — 2007 publication record.** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
 
-**Scientific scope:** applied mathematics, partial differential equations, numerical modelling, fluid mechanics, atmospheric dispersion, and environmental processes including infiltration-related questions.
+- [Thesis record: *Modèles à complexité réduite de transport pour applications environnementales*](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion)
+- [2006 paper: *Similitude généralisée et modélisation géométrique à complexité réduite*](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
+- [2008 chapter: *Reduced-Order Modelling of Dispersion*](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 
-**Methods and technology:** scientific modelling and numerical simulation; SURFEX–TEB and Fortran are part of this research-oriented technical background.
+**Postdoctoral / subsequent research — TEB-Veg, published 2018.** This work concerns the modelling of urban hydrological processes and their representation in the Town Energy Balance model. The paper is a concrete link between mathematical modelling, environmental processes, numerical simulation, and a maintained scientific model.
 
-**Evidence:** the [2006 paper on generalised similarity and reduced-complexity modelling](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/) and the [2008 chapter on reduced-order modelling of dispersion](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14). A separate [public-health exposure report](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf) lists Jean-Marc Brun among participants but does not specify an individual role.
+- [2018 peer-reviewed paper: *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*](https://gmd.copernicus.org/articles/11/4175/2018/)
+- [Official CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/)
+- [Official SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
+- [TEB model source repository](https://github.com/teb-model/teb)
+
+The institutional context includes [Cemagref / IRSTEA](https://www.inrae.fr/) and [IFSTTAR, now part of Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/). These links provide institutional context; the publications above are the evidence for the scientific work.
+
+**Scientific methods and technology:** applied mathematics, partial differential equations, reduced-order modelling, fluid mechanics, atmospheric dispersion, environmental hydrology, numerical simulation, Fortran, and SURFEX–TEB.
 
 ## Startup and product development — Beotic / EP
 
-**Context:** startup/product-oriented software work.
+**Context:** startup- and product-oriented software development.
 
-**Technology areas:** ActionScript, PHP, front-end development, and BPM (business process management).
+**Technology areas:** ActionScript, PHP, front-end development, and business-process management (BPM).
 
-This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods.
+This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods. The full chronology and employer naming are available from [LinkedIn](https://www.linkedin.com/in/brunjm/).
 
-## Software consulting / ESN — ASI
+## Software consulting / ESN — [ASI](https://www.asi.fr/)
 
 **Context:** software delivery in a consulting-services environment.
 
@@ -34,7 +43,7 @@ This experience adds a product and workflow perspective to the scientific backgr
 
 The consulting context requires adapting to project-specific architectures, integration boundaries, client needs, and delivery constraints. It complements research-oriented work with application-development and systems-integration experience.
 
-## Software-vendor environments — Talend and Qlik
+## Software-vendor environments — [Talend](https://www.talend.com/) and [Qlik](https://www.qlik.com/)
 
 ### Talend
 
@@ -50,7 +59,7 @@ This environment adds enterprise software, backend services, distributed/cloud d
 
 **Work areas:** data analysis and statistics, classical machine learning, LLM/NLP and generative AI, experimentation, benchmarks, model evaluation, and Python development/industrialisation.
 
-One industrial project involved a state-of-the-art review, then the creation of an independent pipeline and benchmark for hallucination detection. Using Amazon Bedrock, the work evaluated an AWS guardrail-based approach against state-of-the-art small language models (SLMs), with a common evaluation workflow and analysis of metrics, thresholds, and errors. Public disclosure is limited to the methodology and qualitative comparative observations: Qlik/Talend has not authorised publication of aggregate numerical results, and internal code, data, architecture details, and other proprietary information are excluded.
+One industrial project involved a state-of-the-art review, then the creation of an independent pipeline and benchmark for hallucination detection. Using Amazon Bedrock, the work evaluated an AWS guardrail-based approach against state-of-the-art small language models (SLMs), with a common evaluation workflow and analysis of metrics, thresholds, and errors. Public disclosure is limited to methodology and qualitative comparative observations: Qlik/Talend has not authorised publication of aggregate numerical results, and internal code, data, architecture details, and other proprietary information are excluded.
 
 ## The common thread
 
