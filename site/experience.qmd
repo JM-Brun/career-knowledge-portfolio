@@ -4,12 +4,54 @@ title: "Experience"
 
 # Professional experience
 
-For the most complete current career timeline, see my [LinkedIn profile](https://www.linkedin.com/in/brunjm/).
+For the complete career timeline and official role titles, see my [LinkedIn profile](https://www.linkedin.com/in/brunjm/). The overview below emphasises the different engineering environments and the technical transitions that connect them. It is a thematic summary rather than a replacement for the dated employment history.
 
-My professional experience includes five years as a Data Scientist in the Qlik/Talend lab. The work areas I can currently describe at a high level include data analysis and statistics, classical machine learning, LLM/NLP and generative AI, Python development and industrialization, experimentation, benchmarks, and model evaluation. Specific projects, dates, quantitative outcomes, and individual contributions will be added only when they can be documented reliably.
+My path spans research-laboratory work, startup/product development, software consulting in an ESN, and software-vendor environments at Talend and Qlik. This range has required adapting both the problem-solving approach and the technology stack to the context.
 
 ## Research and scientific modelling
 
-My documented scientific work includes research on reduced-order modelling and environmental dispersion, including a 2006 journal article, a 2008 book chapter, and a public-health exposure study report that lists me among participants.
+**Context:** research-laboratory and thesis work, including work associated with Cemagref.
 
-See [Projects and research](projects.qmd) for the publisher records and the precise attribution of each item.
+**Scientific scope:** applied mathematics, partial differential equations, numerical modelling, fluid mechanics, atmospheric dispersion, and environmental processes including infiltration-related questions.
+
+**Methods and technology:** scientific modelling and numerical simulation; SURFEX–TEB and Fortran are part of this research-oriented technical background.
+
+**Evidence:** the [2006 paper on generalised similarity and reduced-complexity modelling](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/) and the [2008 chapter on reduced-order modelling of dispersion](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14). A separate [public-health exposure report](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf) lists Jean-Marc Brun among participants but does not specify an individual role.
+
+## Startup and product development — Beotic / EP
+
+**Context:** startup/product-oriented software work.
+
+**Technology areas:** ActionScript, PHP, front-end development, and BPM (business process management).
+
+This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods.
+
+## Software consulting / ESN — ASI
+
+**Context:** software delivery in a consulting-services environment.
+
+**Technology areas:** JavaScript and Java.
+
+The consulting context requires adapting to project-specific architectures, integration boundaries, client needs, and delivery constraints. It complements research-oriented work with application-development and systems-integration experience.
+
+## Software-vendor environments — Talend and Qlik
+
+### Talend
+
+**Technology areas:** Java, Spring Boot, Scala, AWS, and Kubernetes.
+
+This environment adds enterprise software, backend services, distributed/cloud deployment, and platform-level engineering to the wider technical profile.
+
+### Qlik
+
+**Context:** five years of Data Science work in the Qlik/Talend lab.
+
+**Technology areas:** Python, Amazon Bedrock, and Amazon SageMaker.
+
+**Work areas:** data analysis and statistics, classical machine learning, LLM/NLP and generative AI, experimentation, benchmarks, model evaluation, and Python development/industrialisation.
+
+One industrial project involved benchmarking approaches for detecting hallucinations in language-model outputs. The public description is deliberately limited to the problem, evaluation approach, scope, and transferable findings; internal code, data, architecture details, and other proprietary information are excluded.
+
+## The common thread
+
+Across these contexts, the recurring work is to understand a domain problem, select a method that fits its constraints, implement or integrate a solution, and evaluate whether it behaves as intended. The combination of scientific modelling, software engineering, and Data Science is the main thread—not any single language or framework.
