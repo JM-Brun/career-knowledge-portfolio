@@ -4,7 +4,7 @@ title: "Projects and research"
 
 # Selected technical work
 
-This page brings together scientific publications and software projects. Project descriptions distinguish verified implementation details from capabilities that still need validation.
+This portfolio combines peer-reviewed scientific outputs, public software, and carefully scoped summaries of industrial work. The purpose is to show how scientific questions, methods, implementation, and evaluation connect across domains. Confidential projects are described only at a level that can be shared publicly.
 
 ## Scientific publications
 
@@ -26,7 +26,6 @@ The chapter presents reduced-complexity modelling for passive-scalar transport a
 This paper presents a reduced-complexity approach to passive-scalar transport and dispersion. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification.
 
 - [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
-- [Alternative bibliographic record — Semantic Scholar](https://www.semanticscholar.org/paper/Similitude-g%C3%A9n%C3%A9ralis%C3%A9e-et-mod%C3%A9lisation-g%C3%A9om%C3%A9trique-Mohammadi-Brun/16f7bdf72d12165abf39078f4078438162304fbe)
 
 These publications document research on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
@@ -38,7 +37,7 @@ The report examines pesticide concentrations in outdoor air at four sites in Hé
 
 - [Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
 
-## Wiki Knowledge — persistent, source-grounded knowledge base
+## Wiki Knowledge — public source-grounded knowledge base
 
 **Goal**
 
@@ -57,49 +56,49 @@ Build a maintainable personal knowledge base from documentary sources, with Mark
 
 The project explores how to turn LLM-assisted document processing into a maintainable engineering workflow: structured outputs, traceability, validation, and explicit maintenance operations rather than relying on one-off chat responses.
 
-**Current limitations to resolve**
+**Current limitation**
 
-The current search implementation's vector-search method falls back to the BM25 path; it should not yet be described as a functioning embedding-based semantic search system. The README and some automation workflows also appear out of sync with the package layout and declared Python requirements. These are tracked as engineering follow-up work, and the repository's checks should be run before relying on every documented workflow.
+The current vector-search method falls back to the BM25 path; it should not yet be described as functioning embedding-based semantic search. The public repository is available for inspection: [Wiki Knowledge source code](https://github.com/JM-Brun/wiki-knowledge).
 
-**Repository and documentation**
+## Industrial case study — evaluating hallucination detection for LLM outputs
 
-- [Wiki Knowledge source code](https://github.com/JM-Brun/wiki-knowledge)
-- [README and architecture overview](https://github.com/JM-Brun/wiki-knowledge#readme)
-- [Open issues and engineering follow-up](https://github.com/JM-Brun/wiki-knowledge/issues)
+**Context and disclosure boundary**
 
-## LLM hallucination evaluation benchmark
+This work was conducted in a private Qlik/Talend industrial setting. The repository, code, datasets, and implementation-specific details are not public and are intentionally not linked here.
 
-**Goal**
+**Problem and scope**
 
-Compare approaches to detecting unsupported or hallucinated content in language-model outputs using an evaluation protocol that makes comparisons interpretable.
+Language-model outputs can be fluent while containing unsupported claims. The work addressed how to compare approaches designed to identify hallucinations or assess factual support, using a benchmark rather than relying on anecdotal examples or a single model judgement.
 
-**Technical work**
+**Approach**
 
-- Integration of multiple fact-checking and evaluation systems
-- Metric calculation and aggregation from predictions
-- Threshold analysis and trade-offs between metrics
-- Streamlit visualisation of benchmark results and errors
-- Modular code and tests for calculation components
+- Reviewed the relevant state of the art and framed the evaluation scope
+- Integrated multiple fact-checking / evaluation approaches into a common comparison workflow
+- Calculated and aggregated benchmark metrics from model outputs
+- Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal
+- Examined result differences and errors through an interactive Streamlit interface
+- Used modular implementation and tests for metric-calculation components
 
-**What it demonstrates**
+**Transferable findings**
 
-Evaluation engineering: defining labels and units of analysis, checking metric validity, and distinguishing supported conclusions from claims the data cannot justify.
+The work made comparisons more systematic by putting approaches under a shared evaluation framework and making metric/threshold trade-offs inspectable. It also reinforced an important evaluation principle: aggregate scores alone are insufficient; conclusions depend on the target metric, operating threshold, dataset composition, and error patterns.
 
-**Repository status**
+No numerical performance values or claims of a universally best method are included here because no cleared, source-backed result table is linked publicly. If selected aggregate results are approved for public disclosure, they can be added without publishing the underlying data or implementation.
 
-A public repository URL, shareable datasets, full protocol, and numerical results have not yet been verified. No repository link or benchmark result is claimed here.
+**What this demonstrates**
+
+Research and development across the full evaluation loop: state-of-the-art review, problem scoping, integration, metric design, benchmark execution, result analysis, and communication of limitations—while respecting confidentiality constraints.
 
 ## Broader technical themes
 
-- Atmospheric dispersion and environmental modelling
-- Reduced-order modelling, applied mathematics, and scientific computing
-- Software engineering, testing, and maintainability
-- Data science, statistics, and machine learning
-- LLM evaluation and hallucination detection
-- Knowledge engineering, provenance, and reproducible workflows
+- Applied mathematics, partial differential equations, and numerical simulation
+- Environmental science: atmospheric dispersion, fluid mechanics, and related transport processes
+- Software engineering across research, startup, consulting, and enterprise environments
+- Data science, statistics, classical machine learning, and LLM evaluation
+- Knowledge engineering, provenance, validation, and reproducible workflows
 
 ## Attribution and evidence
 
 Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications because the available metadata identifies other authors.
 
-Software descriptions are based on the public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
+Software descriptions are based on public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
