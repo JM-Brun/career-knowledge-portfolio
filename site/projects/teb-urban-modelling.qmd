@@ -28,7 +28,7 @@ X. Stavropulos-Laffaille, K. Chancibault, **J.-M. Brun**, A. Lemonsu, V. Masson,
 [Read the paper and abstract](https://gmd.copernicus.org/articles/11/4175/2018/) · [Peer-review discussion](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html)
 :::
 
-Associated research artefacts and model resources:
+Further evidence and model resources:
 
 - [Code and run directories associated with the paper (Zenodo)](https://doi.org/10.5281/zenodo.1218016)
 - [TEB model source repository](https://github.com/teb-model/teb)
@@ -36,16 +36,16 @@ Associated research artefacts and model resources:
 - [CNRM SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
 - [TEB model documentation](https://teb-model.github.io/teb/)
 
-## What this work brings together
+## Methods and technical themes
 
 ::: {.method-grid}
 ::: {.method-card}
 ### Mathematical and physical modelling
-Representing environmental processes through explicit assumptions and parameterisations.
+Represent environmental processes through explicit assumptions and parameterisations.
 :::
 ::: {.method-card}
 ### Numerical simulation
-Integrating process representations into a scientific modelling framework.
+Integrate process representations into a scientific modelling framework.
 :::
 ::: {.method-card}
 ### Environmental hydrology
@@ -59,6 +59,6 @@ Fortran-based modelling in the SURFEX/TEB ecosystem.
 
 ## Why it matters
 
-This project is an example of applied research at the boundary of mathematics, environmental science, and scientific software. It complements earlier work on reduced-order modelling of atmospheric dispersion and later Data Science and AI evaluation: in each case, the goal is to make a complex system tractable through explicit assumptions, an implementable method, and evidence-based evaluation.
+This project is applied research at the boundary of mathematics, environmental science, and scientific software. It complements earlier work on reduced-order modelling of atmospheric dispersion and later Data Science and AI evaluation: in each case, the goal is to make a complex system tractable through explicit assumptions, an implementable method, and evidence-based evaluation.
 
-The paper and its associated research artefacts are the evidence for this work; this page does not claim sole ownership of the model or attribute every model component to me individually.
+The paper and associated artefacts are the evidence for this work; this page does not claim sole ownership of the model or attribute every component to me individually.
