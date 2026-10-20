@@ -2,26 +2,34 @@
 title: "Home"
 ---
 
-# Scientific thinking. Software engineering. Data and AI.
+# Scientific thinking. Mathematical modelling. Data and AI.
 
-This portfolio brings together selected work and areas of practice across applied mathematics, environmental modelling, software engineering, data science, and machine learning.
+I work across disciplines and engineering contexts: from mathematical and environmental modelling in research settings to software delivery, industrial Data Science, and evaluation of AI systems.
 
-It highlights the problems addressed, the technical choices made, the evidence used to assess results, and the limits of each project. Project-specific repositories and public deliverables are linked when available.
+This portfolio is a curated account of that path. It connects scientific questions, methods, implementation choices, technologies, and evidence. It is not a catalogue of every technology encountered: each project is described at the level supported by a publication, public repository, or clearly stated professional experience. Work from private industrial projects is summarised without exposing proprietary code, data, or implementation details.
+
+## A multidisciplinary profile
+
+- **Mathematics and science:** partial differential equations, applied mathematics, statistics, fluid mechanics, environmental dispersion, and infiltration-related modelling.
+- **Research and experimentation:** problem formulation, model assumptions, numerical modelling, evaluation protocols, baselines, error analysis, and interpretation of results.
+- **Software engineering:** application development across front-end and back-end systems, maintainable code, testing, integration, and deployment environments.
+- **Data and AI:** statistical analysis, classical machine learning, LLM/NLP and generative AI, benchmark design, and model evaluation.
+
+The connecting skill is adaptation: understanding the scientific or product problem first, then selecting and implementing an appropriate method in the constraints of the environment.
 
 ## Explore
 
-- [Profile](profile.qmd) — background and technical focus.
-- [Experience](experience.qmd) — career history and contributions.
-- [Skills](skills.qmd) — methods, tools, and practical evidence.
-- [Projects](projects.qmd) — selected technical work.
+- [Profile](profile.qmd) — multidisciplinary background and technical orientation.
+- [Experience](experience.qmd) — research, startup, consulting, and software-vendor contexts.
+- [Skills](skills.qmd) — methods and technologies connected to concrete evidence.
+- [Projects and research](projects.qmd) — publications, public software, and a privacy-preserving summary of industrial AI evaluation work.
 - [Topics](knowledge.qmd) — scientific and technical themes.
 
-## Main areas
+## Selected evidence
 
-- Atmospheric dispersion and environmental modelling
-- Applied mathematics and scientific computing
-- Software engineering and software quality
-- Data science, statistics, and machine learning
-- LLM evaluation and knowledge engineering
+- [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) — applied mathematics and environmental modelling.
+- [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/) — reduced-complexity modelling.
+- [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge) — a public Python project exploring source-grounded knowledge organisation, validation, and lexical retrieval.
+- [LinkedIn](https://www.linkedin.com/in/brunjm/) — current professional profile and full career timeline.
 
-The portfolio is being progressively documented. Project links and claims are included when the relevant work can be presented and checked.
+For private industrial projects, the portfolio describes the problem, scope, general approach, and transferable lessons only where disclosure is appropriate. No confidential source code or data is published here.
