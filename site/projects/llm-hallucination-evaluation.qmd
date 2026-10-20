@@ -4,7 +4,7 @@ title: "Evaluating hallucination detection for LLM outputs"
 
 # Evaluating hallucination detection for LLM outputs
 
-![](../images/model-evaluation.svg){.project-hero fig-alt="Illustration of systematic evaluation and model comparison"}
+
 
 ::: {.project-meta}
 **Context:** private Qlik/Talend industrial project  
