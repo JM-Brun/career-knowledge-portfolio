@@ -27,7 +27,7 @@ The institutional context includes [Cemagref / IRSTEA](https://www.inrae.fr/) an
 
 **Scientific methods and technology:** applied mathematics, partial differential equations, reduced-order modelling, fluid mechanics, atmospheric dispersion, environmental hydrology, numerical simulation, Fortran, and SURFEX–TEB.
 
-## Startup and product development — Beotic / EP
+## Startup and product development — [Beotic](http://www.beotic.com/) / EP
 
 **Context:** startup- and product-oriented software development.
 
