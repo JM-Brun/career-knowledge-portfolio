@@ -1,31 +1,59 @@
 ---
-title: "Projects and research"
+title: "Selected projects and research"
 ---
 
-# Selected technical work
+# Selected projects and research
 
-This portfolio connects scientific questions, methods, implementation, and evaluation. Each substantial project has its own page where the available evidence supports it; publication records and projects with less implementation detail are grouped here. Confidential industrial work is described only at a level that can be shared publicly.
+My strongest evidence is research work with traceable publications, complemented by applied Data Science and AI evaluation. The examples below show how I approach a problem: understand the system, make assumptions explicit, choose a method, test it against evidence, and communicate its limits.
 
-## Scientific publications
+::: {.project-grid}
+::: {.project-card}
+![](images/urban-hydrology.svg){.project-image fig-alt="Illustration of a city, water and vegetation"}
 
+<span class="eyebrow">ENVIRONMENT · RESEARCH</span>
+
+## TEB-Veg: urban hydrological modelling
+
+**My contribution:** co-author of a peer-reviewed paper on improvements to urban hydrological processes in the TEB-Veg model.
+
+This case connects physical processes, mathematical modelling, numerical simulation, and environmental impact assessment.
+
+- [Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/)
+- [Read the case study](projects/teb-urban-modelling.qmd)
+:::
+::: {.project-card}
+![](images/model-evaluation.svg){.project-image fig-alt="Illustration of benchmark results and model comparison"}
+
+<span class="eyebrow">DATA SCIENCE · AI</span>
+
+## Evaluating hallucination detection for LLM outputs
+
+An industrial benchmark and independent evaluation pipeline comparing factual-consistency approaches using a common protocol, metrics, threshold analysis, and error inspection.
+
+The public case study deliberately excludes proprietary data, source code, architecture, scores, and rankings.
+
+[Read the case study](projects/llm-hallucination-evaluation.qmd)
+:::
+:::
+
+## Research publications
+
+::: {.publication-list}
 ### Reduced-Order Modelling of Dispersion (2008)
 
-**Jean-Marc Brun and Bijan Mohammadi**  
-Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
+**Jean-Marc Brun and Bijan Mohammadi** · Book chapter, *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
 
-The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. Similarity-based modelling estimates concentrations without solving a full spatial PDE over the entire domain.
+Reduced-complexity modelling for passive-scalar transport and environmental dispersion, using similarity-based methods rather than solving a full spatial PDE over the entire domain.
 
-- [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
-- [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
+[Springer chapter](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) · [Book record](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
 
 ### Similitude généralisée et modélisation géométrique à complexité réduite (2006)
 
-**Bijan Mohammadi and Jean-Marc Brun**  
-*Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
+**Bijan Mohammadi and Jean-Marc Brun** · *Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
 
-This paper presents a reduced-complexity approach to passive-scalar transport and dispersion. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification.
+A reduced-complexity approach to passive-scalar transport and dispersion, using similarity solutions in a non-symmetric metric based on transport times and partial observations for model identification.
 
-- [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
+[Publisher record and abstract](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 
 ### Contribution mentioned in a public-health exposure report (2006)
 
@@ -33,24 +61,15 @@ This paper presents a reduced-complexity approach to passive-scalar transport an
 
 The report examines pesticide concentrations in outdoor air at four sites in Hérault and discusses population exposure. Jean-Marc Brun is listed among people who also participated in the study; the report does not specify his individual role or contribution.
 
-- [Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+[Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
+:::
 
-## Dedicated project pages
+## Personal and private work
 
-- [**TEB-Veg: urban hydrological modelling**](projects/teb-urban-modelling.qmd) — research contribution on the hydrological processes of the Town Energy Balance model, with scientific publication and official model references.
-- [**Evaluating hallucination detection for LLM outputs**](projects/llm-hallucination-evaluation.qmd) — a private industrial case study, described through methodology and qualitative findings only.
-- **Wiki Knowledge** — a personal project in a private repository exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. The repository is not linked publicly.
-
-## Broader technical themes
-
-- Applied mathematics, partial differential equations, and numerical simulation
-- Environmental science: atmospheric dispersion, fluid mechanics, and urban hydrology
-- Software engineering across research, startup, consulting, and enterprise environments
-- Data science, statistics, classical machine learning, and LLM evaluation
-- Knowledge engineering, provenance, validation, and reproducible workflows
+**Wiki Knowledge** is a personal project in a private repository exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. The repository is not linked publicly.
 
 ## Attribution and evidence
 
-Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications where the available metadata identifies other authors.
+Scientific publications above link to publisher records identifying Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other sources are not listed as personal publications where the available metadata identifies other authors.
 
-Software descriptions are based on public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
+Private industrial work is described only at a level that can be shared publicly. Incomplete or unvalidated capabilities are not presented as finished features.
