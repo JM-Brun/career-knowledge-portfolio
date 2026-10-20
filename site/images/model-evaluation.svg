@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-labelledby="title"><title id="title">Scientific evaluation and comparison</title>
+<rect width="420" height="280" rx="24" fill="#f1f4f7"/>
+<rect x="30" y="28" width="360" height="224" rx="16" fill="#fff" stroke="#dbe4e1" stroke-width="2"/>
+<text x="54" y="61" font-family="sans-serif" font-size="15" font-weight="700" fill="#102b3f">EVALUATE · COMPARE · LEARN</text>
+<g stroke="#dbe4e1" stroke-width="2"><path d="M58 95H365M58 135H365M58 175H365M58 215H365"/></g>
+<g fill="#16766c"><rect x="72" y="105" width="44" height="110" rx="5"/><rect x="147" y="125" width="44" height="90" rx="5"/><rect x="222" y="86" width="44" height="129" rx="5"/></g>
+<rect x="297" y="145" width="44" height="70" rx="5" fill="#e6bd72"/>
+<path d="M66 143L144 108 219 119 291 87 358 102" fill="none" stroke="#102b3f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#fff" stroke="#102b3f" stroke-width="3"><circle cx="66" cy="143" r="5"/><circle cx="144" cy="108" r="5"/><circle cx="219" cy="119" r="5"/><circle cx="291" cy="87" r="5"/><circle cx="358" cy="102" r="5"/></g>
+</svg>
