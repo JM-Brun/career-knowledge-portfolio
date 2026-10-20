@@ -4,7 +4,7 @@ title: "Projects and research"
 
 # Selected technical work
 
-This page brings together scientific publications and software projects. Project descriptions distinguish verified implementation details from capabilities that still need validation.
+This portfolio connects scientific questions, methods, implementation, and evaluation. Each substantial project has its own page where the available evidence supports it; publication records and projects with less implementation detail are grouped here. Confidential industrial work is described only at a level that can be shared publicly.
 
 ## Scientific publications
 
@@ -13,7 +13,7 @@ This page brings together scientific publications and software projects. Project
 **Jean-Marc Brun and Bijan Mohammadi**  
 Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
 
-The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. The work uses similarity-based modelling to estimate concentrations without solving a full spatial PDE over the entire domain.
+The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. Similarity-based modelling estimates concentrations without solving a full spatial PDE over the entire domain.
 
 - [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 - [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
@@ -26,9 +26,6 @@ The chapter presents reduced-complexity modelling for passive-scalar transport a
 This paper presents a reduced-complexity approach to passive-scalar transport and dispersion. It develops similarity solutions in a non-symmetric metric based on transport times and uses partial observational data for model identification.
 
 - [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
-- [Alternative bibliographic record — Semantic Scholar](https://www.semanticscholar.org/paper/Similitude-g%C3%A9n%C3%A9ralis%C3%A9e-et-mod%C3%A9lisation-g%C3%A9om%C3%A9trique-Mohammadi-Brun/16f7bdf72d12165abf39078f4078438162304fbe)
-
-These publications document research on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
 
 ### Contribution mentioned in a public-health exposure report (2006)
 
@@ -38,68 +35,22 @@ The report examines pesticide concentrations in outdoor air at four sites in Hé
 
 - [Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
 
-## Wiki Knowledge — persistent, source-grounded knowledge base
+## Dedicated project pages
 
-**Goal**
-
-Build a maintainable personal knowledge base from documentary sources, with Markdown pages, metadata, cross-links, and source traceability.
-
-**Implementation visible in the repository**
-
-- Python package with a CLI and modular engines for ingestion, search, validation, linting, synchronisation, and export
-- Markdown pages and YAML configuration/front matter
-- Pydantic-based data models and structured search results
-- Lexical retrieval using BM25 and TF-IDF
-- A Reciprocal Rank Fusion (RRF) path for combining ranked results
-- GitHub Actions workflows intended to automate source ingestion and related maintenance
-
-**Engineering focus**
-
-The project explores how to turn LLM-assisted document processing into a maintainable engineering workflow: structured outputs, traceability, validation, and explicit maintenance operations rather than relying on one-off chat responses.
-
-**Current limitations to resolve**
-
-The current search implementation's vector-search method falls back to the BM25 path; it should not yet be described as a functioning embedding-based semantic search system. The README and some automation workflows also appear out of sync with the package layout and declared Python requirements. These are tracked as engineering follow-up work, and the repository's checks should be run before relying on every documented workflow.
-
-**Repository and documentation**
-
-- [Wiki Knowledge source code](https://github.com/JM-Brun/wiki-knowledge)
-- [README and architecture overview](https://github.com/JM-Brun/wiki-knowledge#readme)
-- [Open issues and engineering follow-up](https://github.com/JM-Brun/wiki-knowledge/issues)
-
-## LLM hallucination evaluation benchmark
-
-**Goal**
-
-Compare approaches to detecting unsupported or hallucinated content in language-model outputs using an evaluation protocol that makes comparisons interpretable.
-
-**Technical work**
-
-- Integration of multiple fact-checking and evaluation systems
-- Metric calculation and aggregation from predictions
-- Threshold analysis and trade-offs between metrics
-- Streamlit visualisation of benchmark results and errors
-- Modular code and tests for calculation components
-
-**What it demonstrates**
-
-Evaluation engineering: defining labels and units of analysis, checking metric validity, and distinguishing supported conclusions from claims the data cannot justify.
-
-**Repository status**
-
-A public repository URL, shareable datasets, full protocol, and numerical results have not yet been verified. No repository link or benchmark result is claimed here.
+- [**TEB-Veg: urban hydrological modelling**](projects/teb-urban-modelling.qmd) — research contribution on the hydrological processes of the Town Energy Balance model, with scientific publication and official model references.
+- [**Evaluating hallucination detection for LLM outputs**](projects/llm-hallucination-evaluation.qmd) — a private industrial case study, described through methodology and qualitative findings only.
+- **Wiki Knowledge** — a personal project in a private repository exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. The repository is not linked publicly.
 
 ## Broader technical themes
 
-- Atmospheric dispersion and environmental modelling
-- Reduced-order modelling, applied mathematics, and scientific computing
-- Software engineering, testing, and maintainability
-- Data science, statistics, and machine learning
-- LLM evaluation and hallucination detection
-- Knowledge engineering, provenance, and reproducible workflows
+- Applied mathematics, partial differential equations, and numerical simulation
+- Environmental science: atmospheric dispersion, fluid mechanics, and urban hydrology
+- Software engineering across research, startup, consulting, and enterprise environments
+- Data science, statistics, classical machine learning, and LLM evaluation
+- Knowledge engineering, provenance, validation, and reproducible workflows
 
 ## Attribution and evidence
 
-Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications because the available metadata identifies other authors.
+Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications where the available metadata identifies other authors.
 
-Software descriptions are based on the public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
+Software descriptions are based on public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.

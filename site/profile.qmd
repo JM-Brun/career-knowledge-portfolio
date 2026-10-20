@@ -4,21 +4,28 @@ title: "Profile"
 
 # Profile
 
-My background spans scientific modelling, software development, data science, and machine learning. I am particularly interested in systems whose behaviour can be evaluated, whose outputs can be traced to evidence, and whose implementation remains maintainable.
+My career has moved across several technical worlds: mathematical and environmental modelling, research and experimentation, startup product development, software consulting, and industrial Data Science and AI. I am a multidisciplinary practitioner who is comfortable moving between scientific reasoning, implementation details, and the practical constraints of delivering software.
+
+My scientific foundations include applied mathematics and partial differential equations, with work connected to fluid mechanics, atmospheric dispersion, and environmental modelling. My software experience spans front-end and back-end development, workflow and business-process tooling, enterprise applications, cloud platforms, and Python-based data/AI work.
+
+## What connects the different experiences
+
+- **Scientific reasoning:** translate a real-world problem into explicit assumptions, a model, a numerical or statistical method, and a way to evaluate the result.
+- **Engineering:** turn a method or requirement into maintainable software, with attention to interfaces, testing, integration, and operational constraints.
+- **Evaluation:** compare approaches using suitable baselines and metrics, examine failure cases, and avoid drawing conclusions beyond the evidence.
+- **Adaptability:** move between research, startup, consulting, and software-vendor environments, learning the languages and frameworks required by each context.
 
 ## Technical focus
 
-- Software engineering, Python development, testing, and maintainability
-- Data analysis, statistical reasoning, and machine learning
-- Model evaluation, error analysis, and benchmark design
-- Large language models and source-grounded knowledge systems
-- Applied mathematics, numerical simulation, and environmental modelling
+- Applied mathematics, partial differential equations, numerical modelling, and scientific computing
+- Statistics, data analysis, classical machine learning, and experimentation
+- LLM/NLP, generative AI, benchmark design, and model evaluation
+- Python development, software design, automated testing, and maintainability
+- Enterprise software, Java/Spring, Scala, JavaScript, cloud services, and container orchestration
 
-These areas represent different kinds of experience and ongoing work; they should not be interpreted as equivalent levels of expertise. The [Skills](skills.qmd) page connects claims to concrete examples where possible.
+The technologies listed across the portfolio represent different depths and periods of experience. They are presented in context rather than as a claim of equal expertise in every tool.
 
 ## Selected scientific work
-
-My earlier scientific work includes publications on reduced-order modelling and environmental dispersion:
 
 - [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 - [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
@@ -28,6 +35,6 @@ My earlier scientific work includes publications on reduced-order modelling and 
 - [LinkedIn](https://www.linkedin.com/in/brunjm/)
 - [ResearchGate](https://www.researchgate.net/profile/Jean-Marc-Brun)
 
-## Approach
+## Working approach
 
-I aim to make technical work understandable through clear problem statements, justified design choices, appropriate tests and evaluation protocols, and explicit limitations.
+I start by clarifying the problem and its constraints, then connect the relevant scientific or product model to an implementation and an evaluation strategy. I aim to make assumptions, evidence, design choices, and limitations visible—whether the work concerns a numerical model, a software system, or an AI benchmark.

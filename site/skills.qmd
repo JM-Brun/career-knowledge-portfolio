@@ -2,36 +2,63 @@
 title: "Skills"
 ---
 
-# Skills
+# Skills demonstrated in context
 
-This page groups technical methods by domain. The focus is on skills connected to documented work or identifiable implementation evidence; it does not imply the same proficiency level across all topics.
+A technology list alone says little about the level of a skill or how it was used. This page therefore links methods and technologies to concrete work. The contexts differ in date, depth, and evidence; the list does not imply equal or current expertise in every item.
 
-## Software engineering
+## Applied mathematics and scientific modelling
 
-- **Python** — advanced practical experience reported; examples include modular application code, typing, automated tests, and maintainability.
-- **Software design and quality** — separation of concerns, data validation, testability, and reproducible workflows.
-- **Backend and tooling** — command-line interfaces, configuration, and modular Python packages, including the public Wiki Knowledge project.
+**Context:** thesis and research on environmental transport, atmospheric dispersion, and reduced-complexity models; subsequent work on urban hydrological modelling.
 
-## Data science and machine learning
+- Applied mathematics and partial differential equations
+- Numerical simulation and reduced-order modelling
+- Fluid mechanics, atmospheric dispersion, and environmental processes
+- Scientific reasoning: assumptions, model identification, approximation, and interpretation
+- Fortran and SURFEX–TEB
 
-- Data analysis and model development
-- Classification metrics, model comparison, threshold analysis, and error analysis
-- Validation methodology, data leakage, calibration, and generalisation
-- Experimental design and the distinction between predictive discrimination and probability calibration
+**Evidence:** [2006 reduced-complexity modelling paper](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/), [2008 dispersion chapter](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14), and the [2018 TEB-Veg hydrological-modelling paper](https://gmd.copernicus.org/articles/11/4175/2018/). For model context, see the [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/) and [SURFEX overview](https://cnrm.sedoo.fr/surfex-2/).
 
-These areas are being consolidated through diagnostics and implementation work; they should not be interpreted as independently validated mastery of every method.
+## Statistics, Data Science, and machine learning
 
-## LLMs and knowledge engineering
+**Context:** five years of Data Science work in the Qlik/Talend lab.
 
-- Evaluation of hallucination-detection and fact-checking approaches
-- Benchmark metrics, aggregation, and threshold studies
-- LLM-assisted source ingestion and structured knowledge generation
-- Markdown/YAML-based knowledge organisation, validation, and lexical search
+- Data analysis and statistical reasoning
+- Classical machine learning
+- Experiment design, model comparison, and benchmark evaluation
+- Classification metrics, threshold analysis, and error analysis
+- Python development and industrialisation
 
-## Scientific computing and environmental modelling
+**Evidence:** the [industrial LLM-evaluation case study](projects/llm-hallucination-evaluation.qmd) documents the evaluation methodology at a disclosure-safe level. Specific methods should be assessed against project-level evidence rather than inferred from the job-family label alone.
 
-- Reduced-order modelling of passive-scalar transport and environmental dispersion
-- Applied mathematics and scientific modelling
-- Research-based work documented in the linked 2006 journal article and 2008 book chapter
+## LLMs, NLP, and generative AI
 
-Tools and frameworks are linked to the projects in which they are used. A dependency listed in a project is not, by itself, evidence of a fully implemented feature.
+**Context:** industrial experimentation and evaluation of methods for detecting unsupported or hallucinated model outputs.
+
+- State-of-the-art review and definition of an evaluation scope
+- Independent evaluation pipeline and benchmark design
+- Fact-checking and LLM-evaluation approaches
+- Metric calculation and aggregation, threshold trade-offs, and error analysis
+- Amazon Bedrock and Python-based evaluation tooling
+
+**Evidence and limits:** the [industrial case study](projects/llm-hallucination-evaluation.qmd) describes the work without exposing private code, internal data, implementation-specific architecture, or aggregate numerical results. Qlik/Talend has not authorised disclosure of those numerical results.
+
+## Software engineering and product development
+
+**Context:** applied across research, startup/product development, ESN consulting, and enterprise software.
+
+- Python — Data Science, evaluation tooling, and personal software projects
+- Java and Spring Boot — enterprise/backend application context
+- Scala — enterprise software context
+- JavaScript and ActionScript — application/front-end context
+- PHP and front-end development
+- BPM / business-process workflows
+- AWS, Amazon Bedrock, Amazon SageMaker, and Kubernetes — cloud and AI-platform context
+- Software design, modularity, testing, integration, and maintainability
+
+**Personal project:** Wiki Knowledge is a private-repository project exploring source ingestion, structured knowledge organisation, validation, and lexical retrieval. Its current vector-search path falls back to BM25; it is not yet embedding-based semantic retrieval. Its source code is therefore not linked from this public portfolio.
+
+## Adapting across environments
+
+The experience spans research laboratories, startup/product development, ESN consulting, and software-vendor contexts. The common skill is adapting methods and implementation choices to different constraints: scientific validity, user needs, system integration, maintainability, and operational delivery.
+
+For the full chronology and official role titles, see [LinkedIn](https://www.linkedin.com/in/brunjm/).
