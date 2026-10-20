@@ -10,13 +10,13 @@ My path spans research-laboratory work, startup/product development, software co
 
 ## Research and scientific modelling
 
-**Thesis research — 2007 publication record.** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
+**Thesis research — TODO(date) (thesis/publication milestone: 2007).** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
 
 - [Thesis record: *Modèles à complexité réduite de transport pour applications environnementales*](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion)
 - [2006 paper: *Similitude généralisée et modélisation géométrique à complexité réduite*](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 - [2008 chapter: *Reduced-Order Modelling of Dispersion*](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 
-**Postdoctoral / subsequent research — TEB-Veg, published 2018.** This work concerns the modelling of urban hydrological processes and their representation in the Town Energy Balance model. The paper is a concrete link between mathematical modelling, environmental processes, numerical simulation, and a maintained scientific model.
+**Postdoctoral research — TODO(date) (TEB-Veg paper published in 2018).** This work concerns the modelling of urban hydrological processes and their representation in the Town Energy Balance model. The paper is a concrete link between mathematical modelling, environmental processes, numerical simulation, and a maintained scientific model.
 
 - [2018 peer-reviewed paper: *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*](https://gmd.copernicus.org/articles/11/4175/2018/)
 - [Official CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/)
@@ -27,7 +27,11 @@ The institutional context includes [Cemagref → IRSTEA → INRAE (institutional
 
 **Scientific methods and technology:** applied mathematics, partial differential equations, reduced-order modelling, fluid mechanics, atmospheric dispersion, environmental hydrology, numerical simulation, Fortran, and SURFEX–TEB.
 
-## Startup and product development — [Beotic](http://www.beotic.com/) / EP
+## Startup and product development — [Beotic](http://www.beotic.com/) / [EP](https://agence-api.ouest-france.fr/annuaire/societe/ep-71234cf2-5128-4926-ba36-acce0a3f5c8f)
+
+**Employment dates:** TODO(date).
+
+EP is linked to the [Ouest-France API company listing](https://agence-api.ouest-france.fr/annuaire/societe/ep-71234cf2-5128-4926-ba36-acce0a3f5c8f) and the [EP Makers LinkedIn page](https://www.linkedin.com/company/epmakers/posts/). The exact relationship between these records, the company name at the time, and its current legal status is uncertain; these links are provided as identification leads, not as confirmation that the company still exists under that name.
 
 **Context:** startup- and product-oriented software development.
 
@@ -36,6 +40,8 @@ The institutional context includes [Cemagref → IRSTEA → INRAE (institutional
 This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods. The full chronology and employer naming are available from [LinkedIn](https://www.linkedin.com/in/brunjm/).
 
 ## Software consulting / ESN — [ASI](https://www.asi.fr/)
+
+**Employment dates:** TODO(date).
 
 **Context:** software delivery in a consulting-services environment.
 
@@ -47,13 +53,15 @@ The consulting context requires adapting to project-specific architectures, inte
 
 ### Talend
 
+**Employment dates:** TODO(date).
+
 **Technology areas:** Java, Spring Boot, Scala, AWS, and Kubernetes.
 
 This environment adds enterprise software, backend services, distributed/cloud deployment, and platform-level engineering to the wider technical profile.
 
 ### Qlik
 
-**Context:** five years of Data Science work in the Qlik/Talend lab.
+**Employment dates:** TODO(date) (five years of Data Science work reported in the Qlik/Talend lab).
 
 **Technology areas:** Python, Amazon Bedrock, and Amazon SageMaker.
 
