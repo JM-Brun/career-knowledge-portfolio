@@ -23,7 +23,7 @@ My path spans research-laboratory work, startup/product development, software co
 - [Official SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
 - [TEB model source repository](https://github.com/teb-model/teb)
 
-The institutional context includes [Cemagref / IRSTEA](https://www.inrae.fr/) and [IFSTTAR, now part of Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/). These links provide institutional context; the publications above are the evidence for the scientific work.
+The institutional context includes [Cemagref → IRSTEA → INRAE (institutional history)](https://www.inrae.fr/sites/jobs/files/guide_accueil_-_juillet_2023_-_web.pdf) and [IFSTTAR and its integration into Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/luniversite/notre-projet). These links provide institutional context; the publications above are the evidence for the scientific work.
 
 **Scientific methods and technology:** applied mathematics, partial differential equations, reduced-order modelling, fluid mechanics, atmospheric dispersion, environmental hydrology, numerical simulation, Fortran, and SURFEX–TEB.
 
