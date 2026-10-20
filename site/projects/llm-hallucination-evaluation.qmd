@@ -4,7 +4,7 @@ title: "Evaluating hallucination detection for LLM outputs"
 
 # Evaluating hallucination detection for LLM outputs
 
-![](../images/model-evaluation.svg){.project-hero fig-alt="Illustration of a systematic evaluation and model comparison"}
+![](../images/model-evaluation.svg){.project-hero fig-alt="Illustration of systematic evaluation and model comparison"}
 
 ::: {.project-meta}
 **Context:** private Qlik/Talend industrial project  
@@ -20,7 +20,7 @@ Language-model outputs can be fluent while containing unsupported claims. The pr
 
 ::: {.method-grid}
 ::: {.method-card}
-### 1. Research the field
+### 1. Review the field
 Review the state of the art and define the evaluation scope.
 :::
 ::: {.method-card}
@@ -39,7 +39,7 @@ Calculate and aggregate metrics, study threshold-dependent trade-offs, inspect e
 
 ## Transferable lesson
 
-Evaluation needs to be interpreted against the chosen metric, operating threshold, dataset, and observed failure patterns. A managed provider feature or a larger model should not be assumed to be better without systematic comparison.
+Evaluation must be interpreted against the chosen metric, operating threshold, dataset, and observed failure patterns. A managed provider feature or a larger model should not be assumed better without systematic comparison.
 
 The work covered the research-to-evaluation loop: state-of-the-art review, scoping, integration, metric design, benchmark execution, error analysis, and communication of limitations.
 
