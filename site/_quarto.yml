@@ -3,9 +3,11 @@ project:
   output-dir: _site
 
 website:
-  title: "Jean-Marc Brun — Portfolio"
-  description: "Selected work across scientific modelling, software engineering, data science, and machine learning."
+  title: "Jean-Marc Brun — Research, Mathematics & Data"
+  description: "PhD in applied mathematics. Research, scientific modelling, Data Science and AI evaluation for problems with positive environmental, societal and health impact."
   navbar:
+    background: "#102b3f"
+    foreground: "#f7fafc"
     left:
       - href: index.qmd
         text: Home
@@ -19,9 +21,22 @@ website:
         text: Projects
       - href: knowledge.qmd
         text: Topics
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/brunjm/
+        aria-label: LinkedIn
+  page-footer:
+    left: "Applied mathematics · Research · Data & AI"
+    right: "Selected evidence, clearly attributed."
+    background: "#102b3f"
+    foreground: "#f7fafc"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - styles.scss
     toc: true
     code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true

@@ -4,45 +4,61 @@ title: "TEB-Veg — urban hydrological modelling"
 
 # TEB-Veg: improving urban hydrological modelling
 
-**Research domain:** environmental modelling, urban hydrology, land-surface modelling  
-**Scientific publication:** 2018  
+![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.project-hero fig-alt="Figure 1 from the TEB-Hydro paper: schematic of hydrological processes in the urban model"}\n\n<small>Figure 1 reproduced from Stavropulos-Laffaille et al. (2018), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+
+::: {.project-meta}
+**Research domain:** environmental modelling · urban hydrology · land-surface modelling  
+**Publication:** 2018 · *Geoscientific Model Development*  
 **Model context:** Town Energy Balance (TEB), integrated in SURFEX
+:::
 
-## Problem
+## The question
 
-Urban areas modify exchanges of energy and water with the atmosphere. The representation of rainfall interception, evaporation, and runoff at urban surfaces is therefore relevant to urban climate and impact assessment. The Town Energy Balance (TEB) model represents the urban surface through a simplified street-canyon geometry and parameterises exchanges between roofs, roads, walls, and the atmosphere.
+Urban areas modify exchanges of energy and water with the atmosphere. The representation of rainfall interception, evaporation, and runoff at urban surfaces is relevant to urban climate and impact assessment. The Town Energy Balance (TEB) model represents the urban surface through a simplified street-canyon geometry and parameterises exchanges between roofs, roads, walls, and the atmosphere.
 
 The [CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/) explains the physical scope and its development within [SURFEX](https://cnrm.sedoo.fr/surfex-2/). These are external descriptions of the model, not claims of authorship of the model as a whole.
 
-## Research contribution
+## My research contribution
 
 I am a co-author of the peer-reviewed paper:
 
-> X. Stavropulos-Laffaille, K. Chancibault, **J.-M. Brun**, A. Lemonsu, V. Masson, A. Boone, and H. Andrieu (2018). *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*. Geoscientific Model Development, 11, 4175–4195.
+::: {.citation-panel}
+X. Stavropulos-Laffaille, K. Chancibault, **J.-M. Brun**, A. Lemonsu, V. Masson, A. Boone, and H. Andrieu (2018). *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*. **Geoscientific Model Development, 11**, 4175–4195.
 
-- [Publisher article and abstract](https://gmd.copernicus.org/articles/11/4175/2018/)
-- [Peer-review discussion](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html)
-- [Associated source code and run directories (Zenodo)](https://doi.org/10.5281/zenodo.1218016)
+[Read the paper and abstract](https://gmd.copernicus.org/articles/11/4175/2018/) · [Peer-review discussion](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html)
+:::
+
+Further evidence and model resources:
+
+- [Code and run directories associated with the paper (Zenodo)](https://doi.org/10.5281/zenodo.1218016)
 - [TEB model source repository](https://github.com/teb-model/teb)
-
-The publication concerns improvements to hydrological processes in TEB-Veg within SURFEX for urban modelling and impact assessment. The article and its associated research artefacts are the evidence for this work; this page does not claim sole ownership of the model or attribute every model component to me individually.
+- [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/)
+- [CNRM SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
+- [TEB model documentation](https://teb-model.github.io/teb/)
 
 ## Methods and technical themes
 
-This work connects several areas that are often presented separately:
+::: {.method-grid}
+::: {.method-card}
+### Mathematical and physical modelling
+Represent environmental processes through explicit assumptions and parameterisations.
+:::
+::: {.method-card}
+### Numerical simulation
+Integrate process representations into a scientific modelling framework.
+:::
+::: {.method-card}
+### Environmental hydrology
+Urban rainfall interception, evaporation, and runoff.
+:::
+::: {.method-card}
+### Scientific software
+Fortran-based modelling in the SURFEX/TEB ecosystem.
+:::
+:::
 
-- **Mathematical and physical modelling:** representing real environmental processes through parameterisations and model assumptions.
-- **Numerical simulation:** integrating process representations into a scientific modelling framework.
-- **Environmental hydrology:** urban rainfall interception, evaporation, and runoff.
-- **Scientific evaluation:** examining model behaviour and its suitability for impact-assessment questions.
-- **Scientific software:** Fortran-based modelling within the SURFEX/TEB ecosystem.
+## Why it matters
 
-## Why this project belongs in this portfolio
+This project is applied research at the boundary of mathematics, environmental science, and scientific software. It complements earlier work on reduced-order modelling of atmospheric dispersion and later Data Science and AI evaluation: in each case, the goal is to make a complex system tractable through explicit assumptions, an implementable method, and evidence-based evaluation.
 
-TEB-Veg provides a concrete example of applied research at the boundary of mathematics, environmental science, and scientific software. It complements my earlier work on reduced-order modelling of atmospheric dispersion and my later work in Data Science and AI evaluation: in each case, the central task is to make a complex system tractable through explicit assumptions, an implementable method, and evidence-based evaluation.
-
-## Further context
-
-- [TEB — CNRM scientific overview](https://cnrm.sedoo.fr/teb-town-energy-balance/)
-- [SURFEX — CNRM platform overview](https://cnrm.sedoo.fr/surfex-2/)
-- [TEB model documentation and code browser](https://teb-model.github.io/teb/)
+The paper and associated artefacts are the evidence for this work; this page does not claim sole ownership of the model or attribute every component to me individually.

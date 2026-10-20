@@ -4,35 +4,45 @@ title: "Evaluating hallucination detection for LLM outputs"
 
 # Evaluating hallucination detection for LLM outputs
 
-**Context:** private Qlik/Talend industrial project  
-**Disclosure boundary:** methodology and qualitative comparative observations only
 
-## Problem
+
+::: {.project-meta}
+**Context:** private Qlik/Talend industrial project  
+**Focus:** benchmark design · model evaluation · LLM/NLP  
+**Disclosure:** methodology and qualitative comparative observations only
+:::
+
+## The question
 
 Language-model outputs can be fluent while containing unsupported claims. The project examined how to compare approaches intended to identify hallucinations or assess factual support, using a benchmark rather than relying on anecdotal examples or a single model judgement.
 
-## Approach
+## Evaluation workflow
 
-- Reviewed the state of the art and defined the evaluation scope.
-- Built an independent evaluation pipeline and benchmark to compare approaches under a common protocol.
-- Used Amazon Bedrock to evaluate an AWS guardrail-based approach and compare it with state-of-the-art small language models (SLMs).
-- Considered complementary approaches, including specialised factual-consistency/fact-checking models and LLM-based evaluators.
-- Integrated the approaches into a common comparison workflow.
-- Calculated and aggregated benchmark metrics from model outputs.
-- Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal.
-- Examined result differences and errors through an interactive Streamlit interface.
-- Used modular implementation and tests for metric-calculation components.
+::: {.method-grid}
+::: {.method-card}
+### 1. Review the field
+Review the state of the art and define the evaluation scope.
+:::
+::: {.method-card}
+### 2. Build a benchmark
+Create an independent pipeline and a common comparison protocol.
+:::
+::: {.method-card}
+### 3. Compare approaches
+Use Amazon Bedrock to evaluate an AWS guardrail-based approach against state-of-the-art small language models (SLMs), alongside complementary fact-checking and LLM-evaluation methods.
+:::
+::: {.method-card}
+### 4. Analyse behaviour
+Calculate and aggregate metrics, study threshold-dependent trade-offs, inspect errors, and expose results through an interactive Streamlit interface.
+:::
+:::
 
-## Transferable findings
+## Transferable lesson
 
-The work produced an independent benchmark and a reusable comparison pipeline, with an interactive dashboard for metrics, threshold analysis, and error inspection. The evaluation compared an AWS guardrail-based approach available through Amazon Bedrock with state-of-the-art SLM-based alternatives; the point was to test approaches systematically rather than assume that a managed provider feature or a larger model was inherently better.
+Evaluation must be interpreted against the chosen metric, operating threshold, dataset, and observed failure patterns. A managed provider feature or a larger model should not be assumed better without systematic comparison.
 
-The transferable conclusion is methodological: results must be interpreted against the chosen metric, operating threshold, evaluation dataset, and error patterns.
+The work covered the research-to-evaluation loop: state-of-the-art review, scoping, integration, metric design, benchmark execution, error analysis, and communication of limitations.
 
 ## Confidentiality
 
-Qlik/Talend has not authorised disclosure of aggregate numerical results. Accordingly, this public case study contains no numerical scores, rankings, private repository links, source code, internal datasets, implementation-specific architecture, or other proprietary details. It does not claim that one approach is universally best.
-
-## What this demonstrates
-
-Research and development across the evaluation loop: state-of-the-art review, problem scoping, integration, metric design, benchmark execution, result analysis, and communication of limitations—while respecting confidentiality constraints.
+Qlik/Talend has not authorised disclosure of aggregate numerical results. This public case study therefore contains no numerical scores, rankings, private repository links, source code, internal datasets, implementation-specific architecture, or other proprietary details. It does not claim that one approach is universally best.

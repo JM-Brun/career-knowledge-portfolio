@@ -1,6 +1,11 @@
 name: Validate portfolio site
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/validate-site.yml'
   pull_request:
     branches: [main]
     paths:
