@@ -50,7 +50,7 @@ This environment adds enterprise software, backend services, distributed/cloud d
 
 **Work areas:** data analysis and statistics, classical machine learning, LLM/NLP and generative AI, experimentation, benchmarks, model evaluation, and Python development/industrialisation.
 
-One industrial project involved benchmarking approaches for detecting hallucinations in language-model outputs. The public description is deliberately limited to the problem, evaluation approach, scope, and transferable findings; internal code, data, architecture details, and other proprietary information are excluded.
+One industrial project involved a state-of-the-art review, then the creation of an independent pipeline and benchmark for hallucination detection. Using Amazon Bedrock, the work evaluated an AWS guardrail-based approach against state-of-the-art small language models (SLMs), with a common evaluation workflow and analysis of metrics, thresholds, and errors. Public disclosure is limited to the methodology and qualitative comparative observations: Qlik/Talend has not authorised publication of aggregate numerical results, and internal code, data, architecture details, and other proprietary information are excluded.
 
 ## The common thread
 
