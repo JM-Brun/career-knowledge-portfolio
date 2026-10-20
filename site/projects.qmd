@@ -72,8 +72,9 @@ Language-model outputs can be fluent while containing unsupported claims. The wo
 
 **Approach**
 
-- Reviewed the relevant state of the art and framed the evaluation scope
-- Integrated multiple fact-checking / evaluation approaches into a common comparison workflow
+- Reviewed the relevant state of the art and defined an evaluation scope suited to factual-support and hallucination-detection tasks
+- Compared complementary families of approaches: specialised factual-consistency/fact-checking models, LLM-based evaluators, provider guardrails, and probability-based signals
+- Integrated multiple approaches into a common comparison workflow
 - Calculated and aggregated benchmark metrics from model outputs
 - Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal
 - Examined result differences and errors through an interactive Streamlit interface
@@ -81,7 +82,7 @@ Language-model outputs can be fluent while containing unsupported claims. The wo
 
 **Transferable findings**
 
-The work made comparisons more systematic by putting approaches under a shared evaluation framework and making metric/threshold trade-offs inspectable. It also reinforced an important evaluation principle: aggregate scores alone are insufficient; conclusions depend on the target metric, operating threshold, dataset composition, and error patterns.
+The main deliverable was a comparative evaluation workflow with a dashboard that brought benchmark scores, threshold analysis, and error inspection into one place. This made comparisons more systematic and made metric/threshold trade-offs inspectable. A central finding from the evaluation approach is that aggregate scores alone are insufficient: conclusions depend on the target metric, operating threshold, dataset composition, and error patterns. A single score or threshold should not be treated as universally optimal.
 
 No numerical performance values or claims of a universally best method are included here because no cleared, source-backed result table is linked publicly. If selected aggregate results are approved for public disclosure, they can be added without publishing the underlying data or implementation.
 
