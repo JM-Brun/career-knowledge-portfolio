@@ -1,0 +1,38 @@
+---
+title: "Evaluating hallucination detection for LLM outputs"
+---
+
+# Evaluating hallucination detection for LLM outputs
+
+**Context:** private Qlik/Talend industrial project  
+**Disclosure boundary:** methodology and qualitative comparative observations only
+
+## Problem
+
+Language-model outputs can be fluent while containing unsupported claims. The project examined how to compare approaches intended to identify hallucinations or assess factual support, using a benchmark rather than relying on anecdotal examples or a single model judgement.
+
+## Approach
+
+- Reviewed the state of the art and defined the evaluation scope.
+- Built an independent evaluation pipeline and benchmark to compare approaches under a common protocol.
+- Used Amazon Bedrock to evaluate an AWS guardrail-based approach and compare it with state-of-the-art small language models (SLMs).
+- Considered complementary approaches, including specialised factual-consistency/fact-checking models and LLM-based evaluators.
+- Integrated the approaches into a common comparison workflow.
+- Calculated and aggregated benchmark metrics from model outputs.
+- Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal.
+- Examined result differences and errors through an interactive Streamlit interface.
+- Used modular implementation and tests for metric-calculation components.
+
+## Transferable findings
+
+The work produced an independent benchmark and a reusable comparison pipeline, with an interactive dashboard for metrics, threshold analysis, and error inspection. The evaluation compared an AWS guardrail-based approach available through Amazon Bedrock with state-of-the-art SLM-based alternatives; the point was to test approaches systematically rather than assume that a managed provider feature or a larger model was inherently better.
+
+The transferable conclusion is methodological: results must be interpreted against the chosen metric, operating threshold, evaluation dataset, and error patterns.
+
+## Confidentiality
+
+Qlik/Talend has not authorised disclosure of aggregate numerical results. Accordingly, this public case study contains no numerical scores, rankings, private repository links, source code, internal datasets, implementation-specific architecture, or other proprietary details. It does not claim that one approach is universally best.
+
+## What this demonstrates
+
+Research and development across the evaluation loop: state-of-the-art review, problem scoping, integration, metric design, benchmark execution, result analysis, and communication of limitations—while respecting confidentiality constraints.
