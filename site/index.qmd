@@ -15,7 +15,7 @@ I am particularly interested in applying research and mathematics to projects wi
 
 [Read about my thesis](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion){.btn .btn-primary .btn-lg} [Explore selected projects](projects.qmd){.btn .btn-outline-primary .btn-lg}
 :::
-![](images/research-impact.svg){.hero-illustration fig-alt="Illustration connecting mathematical equations, a city, nature, and scientific research"}
+
 :::
 
 ## A research-led, multidisciplinary profile
@@ -53,7 +53,7 @@ Five years of Data Science work in a Qlik/Talend lab, spanning statistics, class
 ## Selected evidence
 
 ::: {.evidence-feature}
-![](images/urban-hydrology.svg){.evidence-illustration fig-alt="Stylised illustration of urban hydrology and green infrastructure"}
+![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.evidence-illustration fig-alt="Figure 1 from the TEB-Hydro paper: schematic of hydrological processes in the urban model"}\n\n<small>Figure: Stavropulos-Laffaille et al. (2018), Fig. 1, licensed CC BY 4.0. [Source paper](https://gmd.copernicus.org/articles/11/4175/2018/).</small>
 
 ::: {.evidence-copy}
 <span class="eyebrow">ENVIRONMENT · SCIENTIFIC MODELLING</span>
@@ -67,7 +67,7 @@ Co-author of a peer-reviewed study on the hydrological processes in TEB-Veg, par
 :::
 
 ::: {.evidence-feature .evidence-reverse}
-![](images/model-evaluation.svg){.evidence-illustration fig-alt="Stylised illustration of experimental model evaluation"}
+
 
 ::: {.evidence-copy}
 <span class="eyebrow">DATA SCIENCE · AI EVALUATION</span>
