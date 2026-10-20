@@ -6,7 +6,7 @@ title: "Home"
 
 I work across disciplines and engineering contexts: from mathematical and environmental modelling in research settings to software delivery, industrial Data Science, and evaluation of AI systems.
 
-This portfolio is a curated, evidence-led account of that path. It connects scientific questions, methods, implementation choices, technologies, and evidence. It is not a catalogue of every technology encountered: each project is described at the level supported by a publication, public repository, or clearly stated professional experience. Private industrial work is summarised without exposing proprietary code, data, or implementation details.
+This portfolio is a curated, evidence-led account of that path. It connects scientific questions, methods, implementation choices, technologies, and evidence. It is not a catalogue of every technology encountered: each project is described at the level supported by a publication, public repository, or clearly stated professional experience. Private industrial and personal projects are summarised without exposing proprietary code, data, or private repository contents.
 
 ## A multidisciplinary profile
 
@@ -22,7 +22,7 @@ The connecting skill is adaptation: understanding the scientific or product prob
 - [Profile](profile.qmd) — multidisciplinary background and technical orientation.
 - [Experience](experience.qmd) — research, startup, consulting, and software-vendor contexts.
 - [Skills](skills.qmd) — methods and technologies linked to concrete projects and evidence.
-- [Projects and research](projects.qmd) — publications, dedicated project pages, public software, and a privacy-preserving summary of industrial AI evaluation work.
+- [Projects and research](projects.qmd) — publications, dedicated project pages, public software, and privacy-preserving summaries of work that cannot be published in full.
 - [Topics](knowledge.qmd) — scientific and technical themes.
 
 ## Selected evidence
@@ -30,7 +30,6 @@ The connecting skill is adaptation: understanding the scientific or product prob
 - [Reduced-Order Modelling of Dispersion (2008)](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) — applied mathematics and environmental modelling.
 - [Similitude généralisée et modélisation géométrique à complexité réduite (2006)](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/) — reduced-complexity modelling.
 - [TEB-Veg hydrological-modelling paper (2018)](https://gmd.copernicus.org/articles/11/4175/2018/) — a concrete bridge between scientific modelling and environmental processes.
-- [Wiki Knowledge](https://github.com/JM-Brun/wiki-knowledge) — a public Python project exploring source-grounded knowledge organisation, validation, and lexical retrieval.
 - [LinkedIn](https://www.linkedin.com/in/brunjm/) — current professional profile and full career timeline.
 
-For private industrial projects, the portfolio describes the problem, scope, general approach, and transferable lessons only where disclosure is appropriate. No confidential source code or data is published here.
+For private industrial and personal projects, the portfolio describes the problem, scope, general approach, and transferable lessons only where disclosure is appropriate. No confidential source code, private repository contents, or data is published here.
