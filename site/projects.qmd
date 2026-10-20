@@ -8,7 +8,7 @@ My strongest evidence is research work with traceable publications, complemented
 
 ::: {.project-grid}
 ::: {.project-card}
-![](images/urban-hydrology.svg){.project-image fig-alt="Illustration of a city, water and vegetation"}
+![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.project-image fig-alt="Figure 1 from the TEB-Hydro paper: schematic of hydrological processes in the urban model"}
 
 <span class="eyebrow">ENVIRONMENT · RESEARCH</span>
 
@@ -19,7 +19,7 @@ Co-author of a peer-reviewed paper on improving the representation of urban hydr
 [Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Project case study](projects/teb-urban-modelling.qmd)
 :::
 ::: {.project-card}
-![](images/model-evaluation.svg){.project-image fig-alt="Illustration of benchmark results and model comparison"}
+
 
 <span class="eyebrow">DATA SCIENCE · AI</span>
 
