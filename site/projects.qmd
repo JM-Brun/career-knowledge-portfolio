@@ -4,7 +4,7 @@ title: "Projects and research"
 
 # Selected technical work
 
-This portfolio combines peer-reviewed scientific outputs, public software, and carefully scoped summaries of industrial work. The purpose is to show how scientific questions, methods, implementation, and evaluation connect across domains. Confidential projects are described only at a level that can be shared publicly.
+This portfolio connects scientific questions, methods, implementation, and evaluation. Each substantial project has its own page where the available evidence supports it; publication records and projects with less implementation detail are grouped here. Confidential industrial work is described only at a level that can be shared publicly.
 
 ## Scientific publications
 
@@ -13,7 +13,7 @@ This portfolio combines peer-reviewed scientific outputs, public software, and c
 **Jean-Marc Brun and Bijan Mohammadi**  
 Book chapter in *Partial Differential Equations: Modelling and Numerical Simulation*, pp. 245–256.
 
-The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. The work uses similarity-based modelling to estimate concentrations without solving a full spatial PDE over the entire domain.
+The chapter presents reduced-complexity modelling for passive-scalar transport and environmental dispersion. Similarity-based modelling estimates concentrations without solving a full spatial PDE over the entire domain.
 
 - [Chapter record — Springer](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 - [Book record — Springer](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
@@ -27,8 +27,6 @@ This paper presents a reduced-complexity approach to passive-scalar transport an
 
 - [Publisher record and abstract — Comptes Rendus. Mécanique](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 
-These publications document research on reduced-order modelling and environmental dispersion. The publisher records are the primary references.
-
 ### Contribution mentioned in a public-health exposure report (2006)
 
 **Évaluation de l’exposition aérienne aux pesticides de la population générale — Étude en air extérieur dans quatre sites de l’Hérault en 2006**
@@ -37,71 +35,22 @@ The report examines pesticide concentrations in outdoor air at four sites in Hé
 
 - [Study report — Santé publique France (PDF)](https://www.santepubliquefrance.fr/sites/default/files/rdd/document/82748_9958-9958-ps.pdf)
 
-## Wiki Knowledge — public source-grounded knowledge base
+## Dedicated project pages
 
-**Goal**
-
-Build a maintainable personal knowledge base from documentary sources, with Markdown pages, metadata, cross-links, and source traceability.
-
-**Implementation visible in the repository**
-
-- Python package with a CLI and modular engines for ingestion, search, validation, linting, synchronisation, and export
-- Markdown pages and YAML configuration/front matter
-- Pydantic-based data models and structured search results
-- Lexical retrieval using BM25 and TF-IDF
-- A Reciprocal Rank Fusion (RRF) path for combining ranked results
-- GitHub Actions workflows intended to automate source ingestion and related maintenance
-
-**Engineering focus**
-
-The project explores how to turn LLM-assisted document processing into a maintainable engineering workflow: structured outputs, traceability, validation, and explicit maintenance operations rather than relying on one-off chat responses.
-
-**Current limitation**
-
-The current vector-search method falls back to the BM25 path; it should not yet be described as functioning embedding-based semantic search. The public repository is available for inspection: [Wiki Knowledge source code](https://github.com/JM-Brun/wiki-knowledge).
-
-## Industrial case study — evaluating hallucination detection for LLM outputs
-
-**Context and disclosure boundary**
-
-This work was conducted in a private Qlik/Talend industrial setting. The internal project repository, code, datasets, and implementation-specific details are not presented as public portfolio material.
-
-**Problem and scope**
-
-Language-model outputs can be fluent while containing unsupported claims. The work addressed how to compare approaches designed to identify hallucinations or assess factual support, using a benchmark rather than relying on anecdotal examples or a single model judgement.
-
-**Approach**
-
-- Reviewed the state of the art and defined an evaluation scope for factual-support and hallucination detection
-- Built an independent evaluation pipeline and benchmark to compare approaches under a common protocol
-- Used Amazon Bedrock to evaluate an AWS guardrail-based approach and compare it with state-of-the-art small language models (SLMs)
-- Considered complementary approaches, including specialised factual-consistency/fact-checking models and LLM-based evaluators
-- Integrated the approaches into a common comparison workflow
-- Calculated and aggregated benchmark metrics from model outputs
-- Studied threshold-dependent trade-offs rather than treating one operating point as universally optimal
-- Examined result differences and errors through an interactive Streamlit interface
-- Used modular implementation and tests for metric-calculation components
-
-**Transferable findings**
-
-The work produced an independent benchmark and a reusable comparison pipeline, with an interactive dashboard for metrics, threshold analysis, and error inspection. The evaluation compared an AWS guardrail-based approach available through Amazon Bedrock with state-of-the-art SLM-based alternatives; the point was to test approaches systematically rather than assume that a managed provider feature or a larger model was inherently better.
-
-The transferable conclusion is methodological: results must be interpreted against the chosen metric, operating threshold, evaluation dataset, and error patterns. No numerical scores, rankings, or claim that one approach is universally best are published. Qlik/Talend has not authorised disclosure of aggregate numerical results, so this case study is restricted to the approach and qualitative comparative observations.
-
-**What this demonstrates**
-
-Research and development across the full evaluation loop: state-of-the-art review, problem scoping, integration, metric design, benchmark execution, result analysis, and communication of limitations—while respecting confidentiality constraints.
+- [**TEB-Veg: urban hydrological modelling**](projects/teb-urban-modelling.qmd) — research contribution on the hydrological processes of the Town Energy Balance model, with scientific publication and official model references.
+- [**Evaluating hallucination detection for LLM outputs**](projects/llm-hallucination-evaluation.qmd) — a private industrial case study, described through methodology and qualitative findings only.
+- [**Wiki Knowledge**](https://github.com/JM-Brun/wiki-knowledge) — public Python software for source ingestion, structured knowledge organisation, validation, and lexical retrieval.
 
 ## Broader technical themes
 
 - Applied mathematics, partial differential equations, and numerical simulation
-- Environmental science: atmospheric dispersion, fluid mechanics, and related transport processes
+- Environmental science: atmospheric dispersion, fluid mechanics, and urban hydrology
 - Software engineering across research, startup, consulting, and enterprise environments
 - Data science, statistics, classical machine learning, and LLM evaluation
 - Knowledge engineering, provenance, validation, and reproducible workflows
 
 ## Attribution and evidence
 
-Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications because the available metadata identifies other authors.
+Scientific publications above link to publisher records that identify Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other supplied sources concerning atmospheric dispersion or pesticide spray drift are not listed as personal publications where the available metadata identifies other authors.
 
 Software descriptions are based on public repository documentation and inspected source files. Capabilities that are incomplete or not yet validated are identified as limitations rather than presented as completed features.
