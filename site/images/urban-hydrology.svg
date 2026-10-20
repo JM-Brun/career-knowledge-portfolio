@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-labelledby="title"><title id="title">Urban hydrology model</title>
+<rect width="420" height="280" rx="24" fill="#eef5f1"/>
+<path d="M0 206 Q80 185 150 208 T300 200 T420 205 V280 H0Z" fill="#a9d4c3"/>
+<path d="M0 240 Q80 220 160 243 T320 234 T420 240 V280 H0Z" fill="#16766c"/>
+<g fill="#102b3f"><path d="M35 128h65v70H35zM108 92h60v106h-60zM176 139h54v59h-54zM238 113h65v85h-65zM311 145h54v53h-54z"/></g>
+<g fill="#dceee8"><path d="M47 141h12v12H47zM72 141h12v12H72zM121 108h12v12h-12zM145 108h12v12h-12zM121 132h12v12h-12zM145 132h12v12h-12zM252 128h12v12h-12zM278 128h12v12h-12z"/></g>
+<path d="M24 65 Q110 34 185 62 T397 58" fill="none" stroke="#16766c" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/>
+<g fill="#16766c"><path d="M50 65q-20-34-38-7 14 20 38 7z"/><path d="M50 65q9-35 34-22-5 25-34 22z"/></g>
+<g stroke="#16766c" stroke-width="4" fill="none" stroke-linecap="round"><path d="M350 190v-45"/><path d="M350 164q-27-4-29-24 24-2 29 24z"/><path d="M350 174q26-6 30-25-25 1-30 25z"/></g>
+<rect x="22" y="18" width="155" height="31" rx="15" fill="#fff"/><text x="38" y="39" font-family="sans-serif" font-size="13" font-weight="700" fill="#102b3f">WATER · CITY · MODEL</text>
+</svg>
