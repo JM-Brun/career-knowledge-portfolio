@@ -4,7 +4,7 @@ title: "Selected projects and research"
 
 # Selected projects and research
 
-My strongest evidence is research work with traceable publications, complemented by applied Data Science and AI evaluation. The examples below show how I approach a problem: understand the system, make assumptions explicit, choose a method, test it against evidence, and communicate its limits.
+My strongest evidence is research work with traceable publications, complemented by applied Data Science and AI evaluation. Each case study connects a problem, a method, evidence, and the limits of what can be concluded.
 
 ::: {.project-grid}
 ::: {.project-card}
@@ -14,12 +14,9 @@ My strongest evidence is research work with traceable publications, complemented
 
 ## TEB-Veg: urban hydrological modelling
 
-**My contribution:** co-author of a peer-reviewed paper on improvements to urban hydrological processes in the TEB-Veg model.
+Co-author of a peer-reviewed paper on improving the representation of urban hydrological processes in TEB-Veg, part of SURFEX. This work connects mathematical modelling, environmental processes, and scientific software.
 
-This case connects physical processes, mathematical modelling, numerical simulation, and environmental impact assessment.
-
-- [Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/)
-- [Read the case study](projects/teb-urban-modelling.qmd)
+[Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Project case study](projects/teb-urban-modelling.qmd)
 :::
 ::: {.project-card}
 ![](images/model-evaluation.svg){.project-image fig-alt="Illustration of benchmark results and model comparison"}
@@ -28,9 +25,7 @@ This case connects physical processes, mathematical modelling, numerical simulat
 
 ## Evaluating hallucination detection for LLM outputs
 
-An industrial benchmark and independent evaluation pipeline comparing factual-consistency approaches using a common protocol, metrics, threshold analysis, and error inspection.
-
-The public case study deliberately excludes proprietary data, source code, architecture, scores, and rankings.
+An industrial benchmark and independent evaluation pipeline comparing factual-consistency approaches using a common protocol, metrics, threshold analysis, and error inspection. The public case study excludes proprietary data, source code, architecture, scores, and rankings.
 
 [Read the case study](projects/llm-hallucination-evaluation.qmd)
 :::
@@ -70,6 +65,4 @@ The report examines pesticide concentrations in outdoor air at four sites in Hé
 
 ## Attribution and evidence
 
-Scientific publications above link to publisher records identifying Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Other sources are not listed as personal publications where the available metadata identifies other authors.
-
-Private industrial work is described only at a level that can be shared publicly. Incomplete or unvalidated capabilities are not presented as finished features.
+Scientific publications above link to publisher records identifying Jean-Marc Brun as an author. The public-health report is described only as a report that lists him among participants, not as an authored publication. Private industrial work is described only at a level that can be shared publicly; incomplete or unvalidated capabilities are not presented as finished features.
