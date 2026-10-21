@@ -12,11 +12,11 @@ My strongest evidence is research work with traceable publications, complemented
 
 <span class="eyebrow">ENVIRONMENT · RESEARCH</span>
 
-## TEB-Veg: urban hydrological modelling
+## TEB-Veg / TEB-Hydro: urban water processes
 
-Co-author of a peer-reviewed paper on improving the representation of urban hydrological processes in TEB-Veg, part of SURFEX. This work connects mathematical modelling, environmental processes, and scientific software.
+Co-author of a peer-reviewed study extending the urban water budget to soil beneath built surfaces, sewer drainage, and within-grid soil-moisture redistribution. The evaluation uses observed sewer discharge from two residential catchments in Nantes and reports performance differences between wet and dry conditions.
 
-[Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Project case study](projects/teb-urban-modelling.qmd)
+[Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Read the dedicated research case study](projects/teb-urban-modelling.qmd)
 :::
 ::: {.project-card}
 
