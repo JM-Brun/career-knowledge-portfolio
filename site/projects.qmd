@@ -12,11 +12,11 @@ My strongest evidence is research work with traceable publications, complemented
 
 <span class="eyebrow">ENVIRONMENT · RESEARCH</span>
 
-## TEB-Veg: urban hydrological modelling
+## TEB-Veg / TEB-Hydro: urban water processes
 
-Co-author of a peer-reviewed paper on improving the representation of urban hydrological processes in TEB-Veg, part of SURFEX. This work connects mathematical modelling, environmental processes, and scientific software.
+Co-author of a peer-reviewed study extending the urban water budget to soil beneath built surfaces, sewer drainage, and within-grid soil-moisture redistribution. The evaluation uses observed sewer discharge from two residential catchments in Nantes and reports performance differences between wet and dry conditions.
 
-[Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Project case study](projects/teb-urban-modelling.qmd)
+[Read the 2018 paper](https://gmd.copernicus.org/articles/11/4175/2018/) · [Read the dedicated research case study](projects/teb-urban-modelling.qmd)
 :::
 ::: {.project-card}
 
@@ -41,6 +41,14 @@ An industrial benchmark and independent evaluation pipeline comparing factual-co
 Reduced-complexity modelling for passive-scalar transport and environmental dispersion, using similarity-based methods rather than solving a full spatial PDE over the entire domain.
 
 [Springer chapter](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) · [Book record](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
+
+### Hydrological Evaluation of Urban Greening Scenarios: Application to the City of Nantes, France (2014)
+
+**K. Chancibault, Aude Lemonsu, Jean-Marc Brun, and co-authors** · Conference paper, 13th International Conference on Urban Drainage (ICUD 2014).
+
+This study used the TEB urban scheme with GREENROOF and HYDRO modules to examine hydrological effects of urban greening scenarios in Nantes. It provides an applied example of environmental modelling used to compare planning scenarios; the published abstract describes preliminary results, so this portfolio does not overstate them.
+
+[ResearchGate publication record](https://www.researchgate.net/publication/308088054_Hydrological_Evaluation_of_Urban_Greening_Scenarios_Application_to_the_City_of_Nantes_France) · [Bibliographic record from the AGÎLE research team](https://lienss.univ-larochelle.fr/Production-scientifique-de-l-equipe-AGILE)
 
 ### Similitude généralisée et modélisation géométrique à complexité réduite (2006)
 
