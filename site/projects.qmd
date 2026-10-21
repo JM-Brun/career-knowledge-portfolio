@@ -42,6 +42,14 @@ Reduced-complexity modelling for passive-scalar transport and environmental disp
 
 [Springer chapter](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14) · [Book record](https://link.springer.com/book/10.1007/978-1-4020-8758-5)
 
+### Hydrological Evaluation of Urban Greening Scenarios: Application to the City of Nantes, France (2014)
+
+**K. Chancibault, Aude Lemonsu, Jean-Marc Brun, and co-authors** · Conference paper, 13th International Conference on Urban Drainage (ICUD 2014).
+
+This study used the TEB urban scheme with GREENROOF and HYDRO modules to examine hydrological effects of urban greening scenarios in Nantes. It provides an applied example of environmental modelling used to compare planning scenarios; the published abstract describes preliminary results, so this portfolio does not overstate them.
+
+[ResearchGate publication record](https://www.researchgate.net/publication/308088054_Hydrological_Evaluation_of_Urban_Greening_Scenarios_Application_to_the_City_of_Nantes_France) · [Bibliographic record from the AGÎLE research team](https://lienss.univ-larochelle.fr/Production-scientifique-de-l-equipe-AGILE)
+
 ### Similitude généralisée et modélisation géométrique à complexité réduite (2006)
 
 **Bijan Mohammadi and Jean-Marc Brun** · *Comptes Rendus. Mécanique*, 334(10), 634–638. DOI: 10.1016/j.crme.2006.06.007.
