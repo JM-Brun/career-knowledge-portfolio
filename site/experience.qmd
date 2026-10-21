@@ -10,13 +10,13 @@ My path spans research-laboratory work, startup/product development, software co
 
 ## Research and scientific modelling
 
-**Thesis research — TODO(date) (thesis/publication milestone: 2007).** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
+**Doctoral research at Cemagref — 2004–2007 (thesis/publication milestone: 2007).** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
 
 - [Thesis record: *Modèles à complexité réduite de transport pour applications environnementales*](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion)
 - [2006 paper: *Similitude généralisée et modélisation géométrique à complexité réduite*](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 - [2008 chapter: *Reduced-Order Modelling of Dispersion*](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 
-**Postdoctoral research — TODO(date) (TEB-Veg paper published in 2018).** This work concerns the modelling of urban hydrological processes and their representation in the Town Energy Balance model. The paper is a concrete link between mathematical modelling, environmental processes, numerical simulation, and a maintained scientific model.
+**Postdoctoral research at IFSTTAR — 2012–2013 (TEB-Veg paper published in 2018).** This work concerns the modelling of urban hydrological processes and their representation in the Town Energy Balance model. The paper is a concrete link between mathematical modelling, environmental processes, numerical simulation, and a maintained scientific model.
 
 - [2018 peer-reviewed paper: *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*](https://gmd.copernicus.org/articles/11/4175/2018/)
 - [Official CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/)
@@ -29,7 +29,7 @@ The institutional context includes [Cemagref → IRSTEA → INRAE (institutional
 
 ## Startup and product development — [Beotic](http://www.beotic.com/) / [EP](https://agence-api.ouest-france.fr/annuaire/societe/ep-71234cf2-5128-4926-ba36-acce0a3f5c8f)
 
-**Employment dates:** TODO(date).
+**Beotic: 2014–2015. EP: dates remain unverified.**
 
 EP is linked to the [Ouest-France API company listing](https://agence-api.ouest-france.fr/annuaire/societe/ep-71234cf2-5128-4926-ba36-acce0a3f5c8f) and the [EP Makers LinkedIn page](https://www.linkedin.com/company/epmakers/posts/). The exact relationship between these records, the company name at the time, and its current legal status is uncertain; these links are provided as identification leads, not as confirmation that the company still exists under that name.
 
@@ -37,11 +37,11 @@ EP is linked to the [Ouest-France API company listing](https://agence-api.ouest-
 
 **Technology areas:** ActionScript, PHP, front-end development, and business-process management (BPM).
 
-This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods. The full chronology and employer naming are available from [LinkedIn](https://www.linkedin.com/in/brunjm/).
+This experience adds a product and workflow perspective to the scientific background: implementing user-facing functionality and business processes, not only developing analytical or numerical methods. The historical dates above are consistent with the [Viadeo profile](https://viadeo.journaldunet.com/p/jean-marc-brun-96738); exact employer naming and current role details should be checked against [LinkedIn](https://www.linkedin.com/in/brunjm/).
 
 ## Software consulting / ESN — [ASI](https://www.asi.fr/)
 
-**Employment dates:** TODO(date).
+**Employment dates: 2015–2017.**
 
 **Context:** software delivery in a consulting-services environment.
 
