@@ -1,64 +1,104 @@
 ---
-title: "TEB-Veg — urban hydrological modelling"
+title: "TEB-Veg and TEB-Hydro — urban hydrological modelling"
 ---
 
-# TEB-Veg: improving urban hydrological modelling
+# TEB-Veg and TEB-Hydro: representing water processes in the urban fabric
 
-![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.project-hero fig-alt="Figure 1 from the TEB-Hydro paper: schematic of hydrological processes in the urban model"}\n\n<small>Figure 1 reproduced from Stavropulos-Laffaille et al. (2018), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.project-hero fig-alt="Conceptual schematic of hydrological processes represented by the TEB-Hydro model, from Stavropulos-Laffaille et al. (2018)"}
+
+<small>Figure from Stavropulos-Laffaille et al. (2018), distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
 
 ::: {.project-meta}
-**Research domain:** environmental modelling · urban hydrology · land-surface modelling  
-**Publication:** 2018 · *Geoscientific Model Development*  
-**Model context:** Town Energy Balance (TEB), integrated in SURFEX
+**Research area:** applied mathematics · urban hydrology · environmental modelling  
+**Scientific output:** peer-reviewed article, *Geoscientific Model Development* (2018)  
+**Model framework:** Town Energy Balance (TEB) · SURFEX v7.3  
+**Evaluation context:** two small residential catchments in Nantes, France
 :::
 
-## The question
+## Research question
 
-Urban areas modify exchanges of energy and water with the atmosphere. The representation of rainfall interception, evaporation, and runoff at urban surfaces is relevant to urban climate and impact assessment. The Town Energy Balance (TEB) model represents the urban surface through a simplified street-canyon geometry and parameterises exchanges between roofs, roads, walls, and the atmosphere.
+Cities change how rainfall is intercepted, stored, infiltrated, evaporated, and routed to drainage networks. These water transfers interact with urban energy exchanges and microclimate. To assess adaptation strategies such as green infrastructure, urban models need to represent water processes across both vegetated and built surfaces.
 
-The [CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/) explains the physical scope and its development within [SURFEX](https://cnrm.sedoo.fr/surfex-2/). These are external descriptions of the model, not claims of authorship of the model as a whole.
+The Town Energy Balance (TEB) model is an urban-canopy model within the [SURFEX surface modelling platform](https://cnrm.sedoo.fr/surfex-2/). TEB-Veg extended the urban representation to include vegetation within street canyons. However, the hydrological representation of soil beneath built surfaces and its interaction with surface water remained incomplete. The TEB-Hydro development addressed this gap by extending the urban water budget to the subsoil under built surfaces and connecting soil-water processes to drainage.
 
-## My research contribution
+For the model background, see the [CNRM overview of TEB](https://cnrm.sedoo.fr/teb-town-energy-balance/) and the foundational paper on [including vegetation in TEB](https://doi.org/10.5194/gmd-5-1377-2012).
 
-I am a co-author of the peer-reviewed paper:
+## My contribution and the publication
+
+I am a co-author of the paper describing the hydrological developments and their evaluation:
 
 ::: {.citation-panel}
-X. Stavropulos-Laffaille, K. Chancibault, **J.-M. Brun**, A. Lemonsu, V. Masson, A. Boone, and H. Andrieu (2018). *Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment*. **Geoscientific Model Development, 11**, 4175–4195.
+X. Stavropulos-Laffaille, K. Chancibault, **J.-M. Brun**, A. Lemonsu, V. Masson, A. Boone, and H. Andrieu (2018). “Improvements to the hydrological processes of the Town Energy Balance model (TEB-Veg, SURFEX v7.3) for urban modelling and impact assessment.” *Geoscientific Model Development*, **11**, 4175–4194. DOI: [10.5194/gmd-11-4175-2018](https://doi.org/10.5194/gmd-11-4175-2018).
 
-[Read the paper and abstract](https://gmd.copernicus.org/articles/11/4175/2018/) · [Peer-review discussion](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html)
+[Read the full paper and abstract](https://gmd.copernicus.org/articles/11/4175/2018/) · [Peer-review discussion and author responses](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html) · [Article assets and software/data links](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-assets.html)
 :::
 
-Further evidence and model resources:
+This is a collaborative publication. The model as a whole, the wider SURFEX platform, and all of the paper's components should not be attributed to any single co-author.
 
-- [Code and run directories associated with the paper (Zenodo)](https://doi.org/10.5281/zenodo.1218016)
-- [TEB model source repository](https://github.com/teb-model/teb)
-- [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/)
-- [CNRM SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
-- [TEB model documentation](https://teb-model.github.io/teb/)
+## What changed in the model?
 
-## Methods and technical themes
+The paper introduces **TEB-Hydro**, a more complete hydrological representation built on TEB-Veg. Its principal developments include:
+
+- **Subsoil beneath built surfaces:** represent soil-water processes below impervious urban surfaces rather than treating the built surface as hydrologically disconnected from the underlying soil.
+- **Within-grid soil-moisture redistribution:** rebalance soil moisture horizontally within a model grid cell.
+- **Drainage to the sewer network:** represent the routing of soil water into urban drainage.
+- **Limited deep drainage:** constrain deep drainage to improve the water-budget representation.
+- **Parameter sensitivity and calibration:** analyse which hydrological parameters most affect simulated discharge and need calibration.
+
+These changes connect urban surface representation to a more explicit water budget. They are particularly relevant when assessing nature-based solutions, where changes to vegetation and soil can affect both water transfers and energy exchanges.
+
+## Evaluation and results
+
+The study evaluates the model on **two small residential catchments in Nantes**, over two distinct periods, by comparing simulated sewer discharge with observations. It includes a sensitivity analysis to identify hydrological parameters relevant to calibration.
+
+The published results report several important qualifications:
+
+- The model tends to **overestimate total sewer discharge** in both catchments.
+- Performance is better in wet-weather conditions, with a **Kling–Gupta efficiency (KGE) above 0.80**, compared with approximately **0.60 in drier conditions**.
+- The authors identify the same parameter set for both catchments despite differences in meteorological and local physical conditions.
+
+The results are promising, but not uniformly strong across weather regimes. In particular, the dry-weather performance and discharge overestimation matter when interpreting the model's use for impact assessment. The paper presents the work as a step towards city-scale studies alongside climate and demographic projections, not as proof that every urban hydrological condition is already represented without bias.
+
+## Related research and resources
+
+The work is part of a broader development of urban surface models. The following resources help place it in context.
+
+### Directly related TEB-Hydro work
+
+- **Stavropulos-Laffaille et al. (2017), “Hydrological validation of an urban hydro-microclimate model (TEB-Hydro): Sensitivity analysis on the catchment of Rezé (Nantes, France).”** *La Houille Blanche*, 103(3), 14–21. This earlier validation paper focuses on sensitivity analysis for the Rezé catchment and is directly relevant to the 2018 model evaluation. [Publication DOI](https://doi.org/10.1051/lhb/2017017) · [HAL record](https://hal.science/hal-05325715)
+- **Source code and run directories for the 2018 paper.** The research artefact is archived on Zenodo, providing a reproducibility trail beyond the article itself. [Zenodo record, DOI 10.5281/zenodo.1218016](https://doi.org/10.5281/zenodo.1218016)
+
+### Foundational and adjacent TEB research
+
+- **Lemonsu et al. (2012), “Inclusion of vegetation in the Town Energy Balance model for modelling urban green areas.”** Describes the integration of vegetation into the urban canyon and evaluation against field observations. [*Geoscientific Model Development*](https://doi.org/10.5194/gmd-5-1377-2012)
+- **de Munck et al. (2013), “The GREENROOF module (v7.3) for modelling green roof hydrological and energetic performances within TEB.”** Extends TEB to represent the water and energy exchanges of extensive green roofs, an adjacent but distinct application from the TEB-Hydro catchment work. [*Geoscientific Model Development*](https://doi.org/10.5194/gmd-6-1941-2013)
+- **TEB model overview and bibliography.** The CNRM page provides model context and references to other TEB developments. [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/)
+- **SURFEX platform overview.** Describes the wider surface-modelling system in which TEB is integrated. [CNRM SURFEX overview](https://cnrm.sedoo.fr/surfex-2/)
+- **TEB model code and documentation.** [Source repository](https://github.com/teb-model/teb) · [Documentation](https://teb-model.github.io/teb/)
+
+## Methods and transferable lessons
 
 ::: {.method-grid}
 ::: {.method-card}
-### Mathematical and physical modelling
-Represent environmental processes through explicit assumptions and parameterisations.
+### Process-based modelling
+Make assumptions about physical processes explicit and encode them as model components.
 :::
 ::: {.method-card}
-### Numerical simulation
-Integrate process representations into a scientific modelling framework.
+### Sensitivity analysis
+Identify parameters that materially affect model outputs before interpreting calibration results.
 :::
 ::: {.method-card}
-### Environmental hydrology
-Urban rainfall interception, evaporation, and runoff.
+### Evaluation against observations
+Compare simulated sewer discharge with measured data across catchments and weather regimes.
 :::
 ::: {.method-card}
-### Scientific software
-Fortran-based modelling in the SURFEX/TEB ecosystem.
+### Error-aware interpretation
+Report systematic overestimation and performance differences rather than relying on a single aggregate metric.
 :::
 :::
 
-## Why it matters
+For me, this research sits at the intersection of applied mathematics, environmental processes, numerical modelling, and scientific software. It also illustrates a general principle that carries over to Data Science and AI evaluation: a model should be assessed against observations, under relevant operating conditions, with limitations and failure modes made visible.
 
-This project is applied research at the boundary of mathematics, environmental science, and scientific software. It complements earlier work on reduced-order modelling of atmospheric dispersion and later Data Science and AI evaluation: in each case, the goal is to make a complex system tractable through explicit assumptions, an implementable method, and evidence-based evaluation.
+## Evidence and attribution
 
-The paper and associated artefacts are the evidence for this work; this page does not claim sole ownership of the model or attribute every component to me individually.
+The primary evidence is the [2018 peer-reviewed article](https://doi.org/10.5194/gmd-11-4175-2018), its [review record](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-discussion.html), and its [archived code and run directories](https://doi.org/10.5281/zenodo.1218016). Related publications provide historical and technical context; they are not presented as work authored by me unless I am listed among their authors.
