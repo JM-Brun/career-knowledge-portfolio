@@ -65,11 +65,12 @@ The work is part of a broader development of urban surface models. The following
 
 ### Directly related TEB-Hydro work
 
-- **Stavropulos-Laffaille et al. (2017), “Hydrological validation of an urban hydro-microclimate model (TEB-Hydro): Sensitivity analysis on the catchment of Rezé (Nantes, France).”** *La Houille Blanche*, 103(3), 14–21. This earlier validation paper focuses on sensitivity analysis for the Rezé catchment and is directly relevant to the 2018 model evaluation. [Publication DOI](https://doi.org/10.1051/lhb/2017017) · [HAL record](https://hal.science/hal-05325715)
+- **Stavropulos-Laffaille et al. (2017), “Hydrological validation of an urban hydro-microclimate model (TEB-Hydro): Sensitivity analysis on the catchment of Rezé (Nantes, France).”** *La Houille Blanche*, 103(3), 14–21. This earlier validation paper focuses on sensitivity analysis for the Rezé catchment and is directly relevant to the 2018 model evaluation. [Publication DOI](https://doi.org/10.1051/lhb/2017018) · [full-text PDF hosted by CNRM](https://www.umr-cnrm.fr/old/IMG/pdf/stavropulos-lafaille_etal_2017_lhb.pdf)
 - **Source code and run directories for the 2018 paper.** The research artefact is archived on Zenodo, providing a reproducibility trail beyond the article itself. [Zenodo record, DOI 10.5281/zenodo.1218016](https://doi.org/10.5281/zenodo.1218016)
 
 ### Foundational and adjacent TEB research
 
+- **Stavropulos-Laffaille et al. (2021), “Coupling detailed urban energy and water budgets with TEB-Hydro model: Towards an assessment tool for nature based solution performances.”** This later paper explores using TEB-Hydro to assess nature-based solutions by coupling detailed urban water and energy budgets. It is a follow-on application, not a publication co-authored by me. [*Urban Climate*, 39, 100925](https://doi.org/10.1016/j.uclim.2021.100925) · [HAL record](https://hal.science/hal-03320823)
 - **Lemonsu et al. (2012), “Inclusion of vegetation in the Town Energy Balance model for modelling urban green areas.”** Describes the integration of vegetation into the urban canyon and evaluation against field observations. [*Geoscientific Model Development*](https://doi.org/10.5194/gmd-5-1377-2012)
 - **de Munck et al. (2013), “The GREENROOF module (v7.3) for modelling green roof hydrological and energetic performances within TEB.”** Extends TEB to represent the water and energy exchanges of extensive green roofs, an adjacent but distinct application from the TEB-Hydro catchment work. [*Geoscientific Model Development*](https://doi.org/10.5194/gmd-6-1941-2013)
 - **TEB model overview and bibliography.** The CNRM page provides model context and references to other TEB developments. [CNRM TEB overview](https://cnrm.sedoo.fr/teb-town-energy-balance/)
