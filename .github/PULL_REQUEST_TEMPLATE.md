@@ -1,19 +1,22 @@
-## Purpose
+## Contribution mode
 
-What problem does this PR solve? Why is the change needed?
+Choose one or more: profile/positioning · experience/chronology · skills/evidence · project case study · research/publication · website/accessibility · links/publication review.
 
-## Scope
+## Purpose and scope
 
-- What changed?
+- What visitor need, factual correction, or presentation issue does this change address?
+- Which claims, projects, pages, or navigation elements change?
 - What is intentionally out of scope?
 
-## Validation
+## Public evidence and review
 
-- [ ] Relevant automated checks pass.
-- [ ] I reviewed the diff and generated output where applicable.
-- [ ] Claims are factual and supported by evidence.
-- [ ] No secrets, unnecessary personal data, or confidential information are included.
+- [ ] Dates, roles, publications, technologies, results, and skill claims are verified.
+- [ ] Claims distinguish completed work, experiments, and planned work.
+- [ ] Each material project/skill claim links to a relevant public artifact that an unauthenticated visitor can inspect.
+- [ ] No private-source dependency, confidential employer information, or unnecessary personal data is exposed.
+- [ ] The rendered site and affected links/navigation were reviewed.
+- [ ] Relevant CI/render checks pass, or unavailable checks are explained.
 
 ## Risks / follow-up
 
-List known limitations, unresolved questions, or follow-up work. Write `None` if there are none.
+List unresolved factual questions, inaccessible artifacts, limitations, or follow-up work. Write `None` if there are none.
