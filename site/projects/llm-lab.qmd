@@ -1,0 +1,73 @@
+---
+title: "LLM Lab: implementing and testing language-model foundations"
+---
+
+# LLM Lab: implementing and testing language-model foundations
+
+::: {.project-meta}
+**Type:** personal technical learning and experimentation project  
+**Focus:** Python · NumPy · transformer inference · numerical testing · reproducible experiments  
+**Status:** implementation and educational experiments; not a trained or production model
+:::
+
+## Why this project
+
+LLM Lab is a code-first exploration of the foundations of large language models. The aim is to make key mechanisms inspectable: implement them, test their behaviour, compare numerical results with a reference implementation, and explain the concepts through a bilingual Quarto learning path.
+
+The project is both a learning resource and a public engineering artifact. Its claims are deliberately limited to what the code, tests, and published experiments demonstrate.
+
+## Implementation
+
+The repository contains a NumPy decoder-only GPT inference path, including attention, causal masking, autoregressive generation, and decoding policies.
+
+- [GPT model implementation](https://github.com/JM-Brun/llm-lab/blob/main/src/llm_lab/foundations/gpt.py)
+- [Attention implementation](https://github.com/JM-Brun/llm-lab/blob/main/src/llm_lab/foundations/attention.py)
+- [Generation and decoding](https://github.com/JM-Brun/llm-lab/blob/main/src/llm_lab/foundations/generate.py)
+
+This implementation makes the computation explicit and testable. It is an inference reference: it does not train model parameters, and the default configuration uses random initialization.
+
+## Numerical verification
+
+The test suite checks model and generation behaviour, including tensor shapes, input validation, deterministic decoding, causal prefix invariance, and numerical properties.
+
+A dedicated reference-parity test maps the same randomly initialized parameters into the NumPy implementation and Hugging Face GPT-2, then compares logits and hidden states with dtype-appropriate tolerances.
+
+- [Model tests](https://github.com/JM-Brun/llm-lab/blob/main/tests/unit/test_gpt.py)
+- [Generation tests](https://github.com/JM-Brun/llm-lab/blob/main/tests/unit/test_generate.py)
+- [GPT-2 reference-parity tests](https://github.com/JM-Brun/llm-lab/blob/main/tests/unit/test_gpt2_reference_parity.py)
+
+This is evidence of implementation-level numerical agreement under the tested setup. It is not a comparison against a pretrained checkpoint and does not establish language quality.
+
+## A bounded decoding experiment
+
+The project includes a small, reproducible experiment showing how temperature and top-k filtering alter a synthetic four-logit distribution. The report records entropy and retained probability mass and explains what the experiment can and cannot establish.
+
+- [Decoding-distribution experiment](https://github.com/JM-Brun/llm-lab/blob/main/reports/decoding-distribution.md)
+- [Experiment protocol](https://github.com/JM-Brun/llm-lab/blob/main/docs/experiment-protocol.md)
+
+The example is an explanatory numerical experiment, not a benchmark of model performance or generated text quality.
+
+## Engineering and communication
+
+The repository combines a structured Python package, automated tests, static analysis and typing configuration, experiment protocols, machine-readable results, and a bilingual Quarto learning site. The learning path connects conceptual explanations to code and small experiments.
+
+- [Project repository](https://github.com/JM-Brun/llm-lab)
+- [Published learning site](https://jm-brun.github.io/llm-lab/)
+- [Project status and scope](https://github.com/JM-Brun/llm-lab/blob/main/docs/project-status.md)
+
+## What this demonstrates
+
+The public artifacts provide inspectable evidence of:
+
+- implementing transformer inference components in Python and NumPy;
+- reasoning about tensor operations, causal attention, and autoregressive decoding;
+- writing tests for numerical and behavioural invariants;
+- comparing an implementation with a reference under controlled parameter mapping;
+- designing bounded experiments and documenting their limitations;
+- communicating technical concepts through structured, bilingual documentation.
+
+## Limitations
+
+The current project should not be interpreted as evidence of a completed training pipeline, fine-tuning workflow, pretrained-checkpoint evaluation, production deployment, or model-quality benchmark. The reference-parity test uses shared random parameters; the decoding report uses a synthetic four-logit vector. These boundaries are part of the result, not footnotes to hide.
+
+The project is an evolving learning and engineering laboratory. Its value here is the inspectable implementation, verification approach, and clarity about what remains unimplemented.
