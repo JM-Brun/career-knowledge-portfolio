@@ -6,8 +6,8 @@ website:
   title: "Jean-Marc Brun — Research, Mathematics & Data"
   description: "PhD in applied mathematics. Research, scientific modelling, Data Science and AI evaluation for problems with positive environmental, societal and health impact."
   navbar:
-    background: "#102b3f"
-    foreground: "#f7fafc"
+    background: "#123b46"
+    foreground: "#f7fbfa"
     left:
       - href: index.qmd
         text: Home
@@ -28,8 +28,8 @@ website:
   page-footer:
     left: "Applied mathematics · Research · Data & AI"
     right: "Selected evidence, clearly attributed."
-    background: "#102b3f"
-    foreground: "#f7fafc"
+    background: "#123b46"
+    foreground: "#f7fbfa"
 
 format:
   html:
