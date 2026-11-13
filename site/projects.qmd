@@ -20,6 +20,17 @@ Co-author of a peer-reviewed study extending the urban water budget to soil bene
 :::
 ::: {.project-card}
 
+<span class="eyebrow">OPEN-SOURCE · PYTHON · LLM FOUNDATIONS</span>
+
+## LLM Lab: a code-first learning and experimentation environment
+
+A bilingual Quarto project connecting LLM concepts, mathematical explanations, readable NumPy implementations, tests, and small controlled experiments. The public code makes selected inference mechanisms inspectable; it is not a production-scale or trained language model.
+
+[Explore the published learning environment](https://jm-brun.github.io/llm-lab/) · [Inspect the source repository](https://github.com/JM-Brun/llm-lab) · [Read the case study](projects/llm-lab.qmd)
+:::
+
+::: {.project-card}
+
 
 <span class="eyebrow">DATA SCIENCE · AI</span>
 
