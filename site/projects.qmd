@@ -20,7 +20,6 @@ Co-author of a peer-reviewed study extending the urban water budget to soil bene
 :::
 ::: {.project-card}
 
-
 <span class="eyebrow">DATA SCIENCE · AI</span>
 
 ## Evaluating hallucination detection for LLM outputs
@@ -28,6 +27,16 @@ Co-author of a peer-reviewed study extending the urban water budget to soil bene
 An industrial benchmark and independent evaluation pipeline comparing factual-consistency approaches using a common protocol, metrics, threshold analysis, and error inspection. The public case study excludes proprietary data, source code, architecture, scores, and rankings.
 
 [Read the case study](projects/llm-hallucination-evaluation.qmd)
+:::
+::: {.project-card}
+
+<span class="eyebrow">PYTHON · LLM ENGINEERING</span>
+
+## LLM Lab: implementing and testing language-model foundations
+
+A code-first learning and experimentation project: a NumPy decoder-only GPT inference path, numerical and behavioural tests, reference-parity checks with shared random parameters, and bounded decoding experiments. It demonstrates inspectable implementation and verification practices, not model training or production deployment.
+
+[Explore the LLM Lab repository](https://github.com/JM-Brun/llm-lab) · [Visit the bilingual learning site](https://jm-brun.github.io/llm-lab/) · [Read the case study](projects/llm-lab.qmd)
 :::
 :::
 
