@@ -7,6 +7,24 @@ __pycache__/
 .coverage
 .env
 .env.*
+!.env.example
 .DS_Store
 _site/
 .quarto/
+
+# Local agent configuration and credentials
+.claude/settings.local.json
+.claude/*.local.json
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.aws/credentials
+.ssh/
+.netrc
+.npmrc
+.pypirc
+.docker/config.json
