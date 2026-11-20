@@ -45,3 +45,5 @@ quarto render site
 ```
 
 Review the generated `site/_site` output before merging content or navigation changes. Check links, keyboard/readability basics, and the relevant page at narrow and wide widths when layout changes.
+
+Open work in progress as a draft and run the local Quarto render above before marking it ready. The hosted render and secret scan run when the PR is ready for review. Use the repository’s pre-commit hooks on draft branches.
