@@ -12,7 +12,7 @@ My path spans research-laboratory work, startup/product development, software co
 
 **Doctoral research at Cemagref — 2004–2007 (thesis/publication milestone: 2007).** My thesis work concerned reduced-complexity mathematical models for environmental transport and atmospheric dispersion. It connects applied mathematics and partial differential equations with model identification and numerical reasoning.
 
-- [Thesis record: *Modèles à complexité réduite de transport pour applications environnementales*](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion)
+- [Thesis record: *Modèles à complexité réduite de transport pour applications environnementales*](https://agris.fao.org/search/en/providers/122439/records/647471f379cbb2c2c1b2123c)
 - [2006 paper: *Similitude généralisée et modélisation géométrique à complexité réduite*](https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.1016/j.crme.2006.06.007/)
 - [2008 chapter: *Reduced-Order Modelling of Dispersion*](https://link.springer.com/chapter/10.1007/978-1-4020-8758-5_14)
 
@@ -53,15 +53,13 @@ The consulting context requires adapting to project-specific architectures, inte
 
 ### Talend
 
-**Employment dates:** TODO(date).
-
 **Technology areas:** Java, Spring Boot, Scala, AWS, and Kubernetes.
 
 This environment adds enterprise software, backend services, distributed/cloud deployment, and platform-level engineering to the wider technical profile.
 
 ### Qlik
 
-**Employment dates:** TODO(date) (five years of Data Science work reported in the Qlik/Talend lab).
+The Qlik/Talend lab work includes five years of Data Science.
 
 **Technology areas:** Python, Amazon Bedrock, and Amazon SageMaker.
 
