@@ -13,7 +13,7 @@ I hold a **PhD in applied mathematics**, with research on reduced-order modellin
 
 I am particularly interested in applying research and mathematics to projects with **positive environmental, societal, or health impact**. I am technology-agnostic: the problem, the evidence, and the method matter more to me than any particular language, framework, or platform.
 
-[Read about my thesis](https://www.researchgate.net/publication/226478979_Reduced-Order_Modelling_of_Dispersion){.btn .btn-primary .btn-lg} [Explore selected projects](projects.qmd){.btn .btn-outline-primary .btn-lg}
+[Read about my thesis](https://agris.fao.org/search/en/providers/122439/records/647471f379cbb2c2c1b2123c){.btn .btn-primary .btn-lg} [Explore selected projects](projects.qmd){.btn .btn-outline-primary .btn-lg}
 :::
 
 :::
@@ -53,7 +53,7 @@ Five years of Data Science work in a Qlik/Talend lab, spanning statistics, class
 ## Selected evidence
 
 ::: {.evidence-feature}
-![](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.evidence-illustration fig-alt="Figure 1 from the TEB-Hydro paper: schematic of hydrological processes in the urban model"}\n\n<small>Figure: Stavropulos-Laffaille et al. (2018), Fig. 1, licensed CC BY 4.0. [Source paper](https://gmd.copernicus.org/articles/11/4175/2018/).</small>
+![Figure 1 from [Stavropulos-Laffaille et al. (2018)](https://gmd.copernicus.org/articles/11/4175/2018/), licensed CC BY 4.0.](https://gmd.copernicus.org/articles/11/4175/2018/gmd-11-4175-2018-f01.png){.evidence-illustration fig-alt="Schematic of hydrological processes in the TEB-Hydro urban model"}
 
 ::: {.evidence-copy}
 <span class="eyebrow">ENVIRONMENT · SCIENTIFIC MODELLING</span>
